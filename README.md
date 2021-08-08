@@ -226,8 +226,5 @@ for (var i in myString) {
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
 
-Không Update rồi
-Sao không Update chỗ này
-
-Kiểm tra 1 lần nữa xem sao
-11111111111111111111
+Cộng hòa xã hội chủ nghĩa Việt Nam
+git add .
