@@ -1,5 +1,6 @@
 # Khóa JavaScript Basic
 
+Chao moi nguoi kiem tra cho nay nhe
 Bao gồm các nội dung
 
 ## Phần 01 : Giới thiệu
