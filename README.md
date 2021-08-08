@@ -23,35 +23,35 @@ Bao gồm các nội dung
 
 ### Bài 004: Sử dụng Javascript với HTML
 
-- Xem [Sử dụng Javascript với HTML](.\detail\phan02-004\index.md)
+- Xem [Sử dụng Javascript với HTML](./detail/phan02-004/index.md)
 
 ### Bài 005: Biến và khai báo biến
 
-- Xem [Biến và khai báo biến](.\detail\phan02-005\index.md)
+- Xem [Biến và khai báo biến](./detail/phan02-005/index.md)
 
 ### Bài 006: Gán giá trị cho biến
 
-- Xem [Gán giá trị cho biến](.\detail\phan02-006\index.md)
+- Xem [Gán giá trị cho biến](./detail/phan02-006/index.md)
 
 ### Bài 007: Học về biến qua video
 
-- Xem [Học về biến qua video](.\detail\phan02-007\index.md)
+- Xem [Học về biến qua video](./detail/phan02-007/index.md)
 
 ### Bài 008: Test tính cẩn thận, chỉn chu của bạn
 
-- Xem [Test tính cẩn thận, chỉn chu của bạn](.\detail\phan02-008\index.md)
+- Xem [Test tính cẩn thận, chỉn chu của bạn](./detail/phan02-008/index.md)
 
 ### Bài 009: Cú pháp comments
 
-- Xem [Cú pháp comments](.\detail\phan02-009\index.md)
+- Xem [Cú pháp comments](./detail/phan02-009/index.md)
 
 ### Bài 010: Học comments qua video
 
-- Xem [Học comments qua video](.\detail\phan02-010\index.md)
+- Xem [Học comments qua video](./detail/phan02-010/index.md)
 
 ### Bài 011: Một số hàm built-in
 
-- Xem [Một số hàm built-in](.\detail\phan02-011\index.md)
+- Xem [Một số hàm built-in](./detail/phan02-011/index.md)
 
   - alert
   - console
@@ -63,23 +63,23 @@ Bao gồm các nội dung
 <!-- prettier-ignore -->
 ### Bài 012: Làm quen với toán tử
 
-- Xem [Làm quen với toán tử](.\detail\phan02-012\index.md)
+- Xem [Làm quen với toán tử](./detail/phan02-012/index.md)
 
 ### Bài 013: Lưu ý khi làm bài tập
 
-- Xem [Lưu ý khi làm bài tập](.\detail\phan02-013\index.md)
+- Xem [Lưu ý khi làm bài tập](./detail/phan02-013/index.md)
 
 ### Bài 014: Toán tử số học
 
-- Xem [Toán tử số học](.\detail\phan02-014\index.md)
+- Xem [Toán tử số học](./detail/phan02-014/index.md)
 
 ### Bài 015: Toán tử ++ -- với tiền tố & hậu tố
 
-- Xem [Toán tử ++ -- với tiền tố & hậu tố](.\detail\phan02-015\index.md)
+- Xem [Toán tử ++ -- với tiền tố & hậu tố](./detail/phan02-015/index.md)
 
 ### Bài 024: Truthy và Falsy
 
-- Xem [Truthy và Falsy](.\detail\phan02-024\index.md)
+- Xem [Truthy và Falsy](./detail/phan02-024/index.md)
 
 <!-- ![Console](./images/001.png "Console") -->
 <!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
@@ -88,31 +88,31 @@ Bao gồm các nội dung
 
 ### Bài 027: Làm việc với chuỗi
 
-- Xem [Làm việc với chuỗi](.\detail\phan03-027\index.md)
+- Xem [Làm việc với chuỗi](./detail/phan03-027/index.md)
 
 ### Bài 031: Làm việc với mảng
 
-- Xem [Làm việc với mảng](.\detail\phan03-031\index.md)
+- Xem [Làm việc với mảng](./detail/phan03-031/index.md)
 
 ### Bài 038: Object - Đối tượng.
 
-- Xem [Object](.\detail\phan03-038\index.md)
+- Xem [Object](./detail/phan03-038/index.md)
 
 ### Bài 039: Object Construction - Thiết kế đối tượng.
 
-- Xem [Object](.\detail\phan03-039\index.md)
+- Xem [Object](./detail/phan03-039/index.md)
 
 ### Bài 040: Object Prototype - Thuộc tính nguyên mẫu.
 
-- Xem [Object Prototype](.\detail\phan03-040\index.md)
+- Xem [Object Prototype](./detail/phan03-040/index.md)
 
 ### Bài 042: Lệnh rẽ nhánh If else
 
-- Xem [Lệnh rẽ nhánh If else](.\detail\phan03-042\index.md)
+- Xem [Lệnh rẽ nhánh If else](./detail/phan03-042/index.md)
 
 ### Bài 043: Lệnh rẽ nhánh Switch
 
-- Xem [Lệnh rẽ nhánh Switch](.\detail\phan03-043\index.md)
+- Xem [Lệnh rẽ nhánh Switch](./detail/phan03-043/index.md)
 
 <!-- prettier-ignore -->
 ```js
@@ -137,12 +137,12 @@ switch (date) {
 
 ### Bài 044: Toán tử 3 ngôi (Ternary operator)
 
-- Xem [Toán tử 3 ngôi (Ternary operator)](.\detail\phan03-044\index.md)
+- Xem [Toán tử 3 ngôi (Ternary operator)](./detail/phan03-044/index.md)
   > [Điều kiện] ? [Biểu thức nếu đúng] : [Biểu thức nếu sai]
 
 ### Bài 045: Giới thiệu vòng lặp - Loop
 
-- Xem [Giới thiệu vòng lặp - Loop](.\detail\phan03-045\index.md)
+- Xem [Giới thiệu vòng lặp - Loop](./detail/phan03-045/index.md)
 
   **Vòng lặp - Loop**
 
@@ -154,7 +154,7 @@ switch (date) {
 
 ### Bài 046: Vòng lặp for()
 
-- Xem [Vòng lặp for](.\detail\phan03-046\index.md)
+- Xem [Vòng lặp for](./detail/phan03-046/index.md)
 
 ```js
 // Print Log 100 line
@@ -180,7 +180,7 @@ for (var i = 0; i < arrLength; i++) {
 
 ### Bài 049: Vòng lặp for/in
 
-- Xem [Vòng lặp for/in](.\detail\phan03-049\index.md)
+- Xem [Vòng lặp for/in](./detail/phan03-049/index.md)
   - for/in dùng cho _Object_
   - for/in dùng cho _Array_
   - for/in dùng cho _String_
@@ -224,4 +224,4 @@ for (var i in myString) {
 
 ### Bài 050: Vòng lặp for/of
 
-- Xem [Vòng lặp for/of](.\detail\phan03-050\index.md)
+- Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
