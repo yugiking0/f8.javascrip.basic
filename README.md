@@ -228,3 +228,6 @@ for (var i in myString) {
 
 Không Update rồi
 Sao không Update chỗ này
+
+Kiểm tra 1 lần nữa xem sao
+11111111111111111111
