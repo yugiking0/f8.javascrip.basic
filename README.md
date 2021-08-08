@@ -1,6 +1,6 @@
 # Khóa JavaScript Basic
 
-Bao gồm các nội dung
+Bao gồm các nội dung:
 
 ## Phần 01 : Giới thiệu
 
