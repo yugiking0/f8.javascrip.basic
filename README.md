@@ -6,7 +6,7 @@ Bao gồm các nội dung
 
 ### Bài 001: Lời khuyên trước khóa học
 
-- Xem [Lời khuyên trước khóa học](.\detail\phan01-001\index.md)
+- Xem [Lời khuyên trước khóa học](./detail/phan01-001/index.md)
 
 ### Bài 002: Cài đặt môi trường
 
@@ -19,7 +19,7 @@ Bao gồm các nội dung
 
 ### Bài 003: Sử dụng Javascript với HTML
 
-- Xem [Sử dụng Javascript với HTML](.\detail\phan02-003\index.md)
+- Xem [Sử dụng Javascript với HTML](./detail/phan02-003/index.md)
 
 ### Bài 004: Sử dụng Javascript với HTML
 
