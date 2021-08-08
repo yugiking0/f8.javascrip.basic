@@ -1,8 +1,5 @@
 # Khóa JavaScript Basic
 
-Chao moi nguoi kiem tra cho nay nhe
-Bao gồm các nội dung
-
 ## Phần 01 : Giới thiệu
 
 ### Bài 001: Lời khuyên trước khóa học
@@ -226,5 +223,3 @@ for (var i in myString) {
 ### Bài 050: Vòng lặp for/of
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
-
-kiểm tra có Update không?
