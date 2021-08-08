@@ -1,5 +1,6 @@
 # Khóa JavaScript Basic
 
+Đây là Readme nhé.
 Bao gồm các nội dung:
 
 ## Phần 01 : Giới thiệu
