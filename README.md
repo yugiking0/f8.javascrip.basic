@@ -225,4 +225,6 @@ for (var i in myString) {
 ### Bài 050: Vòng lặp for/of
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
-  Không Update rồi
+
+Không Update rồi
+Sao không Update chỗ này
