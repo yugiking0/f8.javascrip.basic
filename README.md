@@ -231,3 +231,5 @@ for (var i in myString) {
 
 Cộng hòa xã hội chủ nghĩa Việt Nam
 git add .
+
+Tai sao không thay đổi Readme chỗ này.
