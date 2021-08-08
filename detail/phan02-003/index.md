@@ -51,4 +51,4 @@ alert("Xin chào các bạn!");
 
 ---
 
-> Trong thực tế cách **`Internal`** cũng được sử dụng khá phổ biến trong các trường hợp mã `javascript` đó chỉ sử dụng tại duy nhất một màn hình và số lượng các dòng code không nhiều. Tuy nhiên cách này các bạn nên tránh việc lạm dụng vì sẽ dễ gây rác `source code` và lặp lại code không mong muốn.
+> Trong thực tế cách **`Internal`** cũng được sử dụng khá phổ biến trong các trường hợp mã `javascript` đó chỉ sử dụng tại duy nhất một màn hình và số lượng các dòng code không nhiều. Tuy nhiên cách này các bạn nên tránh việc lạm dụng vì sẽ dễ gây rác `source code` và lặp lại code không mong muốn

@@ -188,11 +188,11 @@ for (var i = 0; i < arrLength; i++) {
 ```js
 // Loop for/in => Object
 var myInfo = {
-  firstName: 'Dinh',
-  lastName: 'Quang Duy',
+  firstName: "Dinh",
+  lastName: "Quang Duy",
   birthYear: 1985,
-  address: 'Đà Nẵng',
-  country: 'Việt Nam',
+  address: "Đà Nẵng",
+  country: "Việt Nam",
 };
 
 for (var key in myInfo) {
@@ -202,7 +202,7 @@ for (var key in myInfo) {
 
 ```js
 // Loop for/in => Array
-var arr = ['Javascript', 'CSS', 'Html', 'Java', 'Python'];
+var arr = ["Javascript", "CSS", "Html", "Java", "Python"];
 
 for (var key in arr) {
   console.log(arr[key]);
@@ -211,7 +211,7 @@ for (var key in arr) {
 
 ```js
 // Loop for/in => String
-var myString = 'Javascript';
+var myString = "Javascript";
 
 // myString[0]// J
 for (var i in myString) {
@@ -225,3 +225,4 @@ for (var i in myString) {
 ### Bài 050: Vòng lặp for/of
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
+  Không Update rồi

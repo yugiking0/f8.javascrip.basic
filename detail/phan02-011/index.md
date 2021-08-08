@@ -16,42 +16,42 @@ Một số hàm Built-in(được xây dựng sẵn) thường dùng là:
 ## 1. Alert()
 
 ```js
-alert('Hello Javascript!');
+alert("Hello Javascript!");
 ```
 
 ## 2. console
 
 ```js
-console.log('Đây là Log.');
-console.warn('Đây là cảnh báo!');
-console.error('Đây là Lỗi!');
+console.log("Đây là Log.");
+console.warn("Đây là cảnh báo!");
+console.error("Đây là Lỗi!");
 ```
 
-![Console](./images/001.png 'Console')
+![Console](./images/001.png "Console")
 
 ## 3. confirm
 
 Dùng để xác nhận một nội dung nào đó, lựa chọn `OK` hoặc `Cancel`
 
 ```js
-var isEnough = Boolean(confirm('Bạn đã trên 18+ ?'));
+var isEnough = Boolean(confirm("Bạn đã trên 18+ ?"));
 
 if (isEnough) {
-  console.log('Bạn đã trưởng thành!');
-} else console.log('Em chưa 18!!!');
+  console.log("Bạn đã trưởng thành!");
+} else console.log("Em chưa 18!!!");
 ```
 
 ## 4. prompt
 
 ```js
-var firstName = prompt('Nhập tên của bạn vào:');
+var firstName = prompt("Nhập tên của bạn vào:");
 
 alert(`Chào ${firstName}, chúc một ngày tốt lành!!!`);
 ```
 
 ## 5. set timeout
 
-Sau một thời gian sẽ thực hiện 1 một đoạn lệnh
+Sau một thời gian sẽ thực hiện 1 một đoạn lệnh1111
 
 ```js
 setTimeout(function () {
@@ -59,7 +59,7 @@ setTimeout(function () {
 }, 2000); // 1000 là 1000ms = 1s
 ```
 
-## 6. set interval
+## 6. set interval11111
 
 ```js
 let i = 0;
