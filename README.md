@@ -297,3 +297,6 @@ while (i < languages.length) {
 ### Bài 052: Vòng lặp do/while
 
 - Xem [Vòng lặp do/while](./detail/phan03-052/index.md)
+
+Kiểm tra ví dụ:
+Xem [Kiểm tra](./demo-index.html)
