@@ -1,5 +1,6 @@
 # Khóa JavaScript Basic
 
+Kiểm tra đã Update được chưa?
 Xem link hướng dẫn ở đây:
 https://yugiking0.github.io/f8.javascrip.basic
 
