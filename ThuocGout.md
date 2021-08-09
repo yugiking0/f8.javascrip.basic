@@ -1,5 +1,7 @@
 # Các loại thuốc Gout
 
+---
+
 Các Loại Thuốc Trị Gout Phổ Biến Nhất Hiện Nay Và Lưu Ý Quan Trọng Khi Sử Dụng
 
 - Thuốc chống viêm không steroid NSAIDs.

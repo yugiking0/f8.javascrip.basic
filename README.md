@@ -1,6 +1,12 @@
 # Khóa JavaScript Basic
 
+<<<<<<< HEAD
+=======
+Đây là nhánh Develop nhé. Update kiểm tra xem thử nào.
+>>>>>>> develop
 Bao gồm các nội dung:
+1111111111111111111111111122222222222222
+sao vẫn chưa được Develpơ
 
 ## Phần 01 : Giới thiệu
 
@@ -225,3 +231,8 @@ for (var i in myString) {
 ### Bài 050: Vòng lặp for/of
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
+
+Cộng hòa xã hội chủ nghĩa Việt Nam
+git add .
+
+Tai sao không thay đổi Readme chỗ này.
