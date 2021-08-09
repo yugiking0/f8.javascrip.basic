@@ -1,6 +1,6 @@
 # Khóa JavaScript Basic
 
-Đây là Readme nhé.
+Đây là nhánh Develop nhé.
 Bao gồm các nội dung:
 
 ## Phần 01 : Giới thiệu
