@@ -1,13 +1,5 @@
 # Khóa JavaScript Basic
 
-<<<<<<< HEAD
-=======
-Đây là nhánh Develop nhé. Update kiểm tra xem thử nào.
->>>>>>> develop
-Bao gồm các nội dung:
-1111111111111111111111111122222222222222
-sao vẫn chưa được Develpơ
-
 ## Phần 01 : Giới thiệu
 
 ### Bài 001: Lời khuyên trước khóa học
