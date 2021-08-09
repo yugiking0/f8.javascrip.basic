@@ -115,20 +115,86 @@
 //   console.log(char);
 // } // J a v a s c r i p t
 
-var myInfo = {
-  firstName: 'Dinh',
-  lastName: 'Quang Duy',
-  birthYear: 1985,
-  address: 'Đà Nẵng',
-  country: 'Việt Nam',
-};
-console.log(Object.keys(myInfo));
-console.log(Object.values(myInfo));
+// var myInfo = {
+//   firstName: 'Dinh',
+//   lastName: 'Quang Duy',
+//   birthYear: 1985,
+//   address: 'Đà Nẵng',
+//   country: 'Việt Nam',
+// };
+// console.log(Object.keys(myInfo));
+// console.log(Object.values(myInfo));
 
-for (var item of Object.keys(myInfo)) {
-  console.log(item);
+// for (var item of Object.keys(myInfo)) {
+//   console.log(item);
+// }
+
+// for (var item of Object.values(myInfo)) {
+//   console.log(item);
+// }
+
+// var i = 0;
+// // while (i <= 100) {
+// //   console.log('Line :', i);
+// //   i++;
+// // }
+
+// var languages = ['Javascript', 'CSS', 'Html', 'Java'];
+// while (i < languages.length) {
+//   console.log(languages[i]);
+//   i++;
+// }
+
+// var i = 0;
+// var isSuccess = false;
+// do {
+//   i++;
+//   console.log('Nhập lần: ' + i);
+
+//   // Nếu nạp thành công:
+//   if (false) {
+//     isSuccess = true;
+//   }
+//   console.log('Đã sai. Xin nhập lại.');
+// } while (i < 3 && !isSuccess);
+
+/**
+ * Nhập 3 lần kiểm tra
+ */
+
+const textID = document.querySelector('#text-id');
+const btnID = document.querySelector('#btn-id');
+
+// 1. Gán giá trị
+var hiddenString = '123';
+var lan = 1;
+btnID.addEventListener('click', function () {
+  var isSuccess = false;
+
+  do {
+    var numberInput = prompt(`Nhập lần ${lan}`);
+
+    if (numberInput === hiddenString) {
+      isSuccess = true;
+      doCorrect();
+      break;
+    }
+
+    lan++;
+
+    if (lan >= 3) {
+      doDisable();
+      textID.textContent = 'Đã hết lần nhập!';
+    }
+  } while (lan <= 3 && !isSuccess);
+});
+
+function doCorrect() {
+  textID.textContent = 'Dung roi!';
+  doDisable();
 }
 
-for (var item of Object.values(myInfo)) {
-  console.log(item);
+// Disable text & Button
+function doDisable() {
+  btnID.disabled = true;
 }

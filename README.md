@@ -189,11 +189,11 @@ for (var i = 0; i < arrLength; i++) {
 ```js
 // Loop for/in => Object
 var myInfo = {
-  firstName: "Dinh",
-  lastName: "Quang Duy",
+  firstName: 'Dinh',
+  lastName: 'Quang Duy',
   birthYear: 1985,
-  address: "Đà Nẵng",
-  country: "Việt Nam",
+  address: 'Đà Nẵng',
+  country: 'Việt Nam',
 };
 
 for (var key in myInfo) {
@@ -203,7 +203,7 @@ for (var key in myInfo) {
 
 ```js
 // Loop for/in => Array
-var arr = ["Javascript", "CSS", "Html", "Java", "Python"];
+var arr = ['Javascript', 'CSS', 'Html', 'Java', 'Python'];
 
 for (var key in arr) {
   console.log(arr[key]);
@@ -212,7 +212,7 @@ for (var key in arr) {
 
 ```js
 // Loop for/in => String
-var myString = "Javascript";
+var myString = 'Javascript';
 
 // myString[0]// J
 for (var i in myString) {
@@ -226,3 +226,74 @@ for (var i in myString) {
 ### Bài 050: Vòng lặp for/of
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
+
+```js
+// prettier-ignore
+var languages = [
+    'Javascript', 
+    'CSS',
+    'Html', 
+    'Java'];
+
+// 1.for/of
+console.log('---1. for/of----');
+for (var course of languages) {
+  console.log(course);
+}
+// 2.for/in
+console.log('---2. for/of----');
+for (var index in languages) {
+  console.log(index, languages[index]);
+}
+```
+
+```js
+var myString = 'Javascript';
+for (var char of myString) {
+  console.log(char);
+} // J a v a s c r i p t
+```
+
+```js
+var myInfo = {
+  firstName: 'Dinh',
+  lastName: 'Quang Duy',
+  birthYear: 1985,
+  address: 'Đà Nẵng',
+  country: 'Việt Nam',
+};
+console.log(Object.keys(myInfo));
+console.log(Object.values(myInfo));
+
+for (var item of Object.keys(myInfo)) {
+  console.log(item);
+}
+
+for (var item of Object.values(myInfo)) {
+  console.log(item);
+}
+```
+
+### Bài 051: Vòng lặp while
+
+- Xem [Vòng lặp while](./detail/phan03-051/index.md)
+
+```js
+var i = 1;
+while (i <= 100) {
+  console.log('Line :', i);
+  i++;
+}
+```
+
+```js
+var languages = ['Javascript', 'CSS', 'Html', 'Java'];
+while (i < languages.length) {
+  console.log(languages[i]);
+  i++;
+}
+```
+
+### Bài 052: Vòng lặp do/while
+
+- Xem [Vòng lặp do/while](./detail/phan03-052/index.md)
