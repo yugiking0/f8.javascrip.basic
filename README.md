@@ -1,6 +1,6 @@
 # Khóa JavaScript Basic
 
-Phần này mới thêm vào kiểm tra nhé!!!!
+Phần này mới thêm vào Develope kiểm tra nhé!!!!
 
 ## Phần 01 : Giới thiệu
 
