@@ -1,6 +1,5 @@
 # Khóa JavaScript Basic
 
-Kiểm tra đã Update được chưa?
 Xem link hướng dẫn ở đây:
 https://yugiking0.github.io/f8.javascrip.basic
 
@@ -227,8 +226,3 @@ for (var i in myString) {
 ### Bài 050: Vòng lặp for/of
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
-
-Cộng hòa xã hội chủ nghĩa Việt Nam
-git add .
-
-Tai sao không thay đổi Readme chỗ này.
