@@ -1,5 +1,7 @@
 # Khóa JavaScript Basic
 
+Phần này mới thêm vào kiểm tra nhé!!!!
+
 ## Phần 01 : Giới thiệu
 
 ### Bài 001: Lời khuyên trước khóa học
