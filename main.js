@@ -92,3 +92,43 @@
 // }
 
 // console.log(findEqualValues(arr1, arr2));
+
+// var languages = [
+//     'Javascript',
+//     'CSS',
+//     'Html',
+//     'Java'];
+
+// // 1.for/of
+// console.log('---1. for/of----');
+// for (var course of languages) {
+//   console.log(course);
+// }
+// // 2.for/in
+// console.log('---2. for/of----');
+// for (var index in languages) {
+//   console.log(index, languages[index]);
+// }
+
+// var myString = 'Javascript';
+// for (var char of myString) {
+//   console.log(char);
+// } // J a v a s c r i p t
+
+var myInfo = {
+  firstName: 'Dinh',
+  lastName: 'Quang Duy',
+  birthYear: 1985,
+  address: 'Đà Nẵng',
+  country: 'Việt Nam',
+};
+console.log(Object.keys(myInfo));
+console.log(Object.values(myInfo));
+
+for (var item of Object.keys(myInfo)) {
+  console.log(item);
+}
+
+for (var item of Object.values(myInfo)) {
+  console.log(item);
+}

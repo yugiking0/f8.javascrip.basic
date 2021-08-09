@@ -79,9 +79,6 @@
 
 - Xem [Truthy và Falsy](./detail/phan02-024/index.md)
 
-<!-- ![Console](./images/001.png "Console") -->
-<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
-
 ## Phần 03 : Kiến thức cốt lỗi (Phần 1)
 
 ### Bài 027: Làm việc với chuỗi
@@ -186,11 +183,11 @@ for (var i = 0; i < arrLength; i++) {
 ```js
 // Loop for/in => Object
 var myInfo = {
-  firstName: "Dinh",
-  lastName: "Quang Duy",
+  firstName: 'Dinh',
+  lastName: 'Quang Duy',
   birthYear: 1985,
-  address: "Đà Nẵng",
-  country: "Việt Nam",
+  address: 'Đà Nẵng',
+  country: 'Việt Nam',
 };
 
 for (var key in myInfo) {
@@ -200,7 +197,7 @@ for (var key in myInfo) {
 
 ```js
 // Loop for/in => Array
-var arr = ["Javascript", "CSS", "Html", "Java", "Python"];
+var arr = ['Javascript', 'CSS', 'Html', 'Java', 'Python'];
 
 for (var key in arr) {
   console.log(arr[key]);
@@ -209,7 +206,7 @@ for (var key in arr) {
 
 ```js
 // Loop for/in => String
-var myString = "Javascript";
+var myString = 'Javascript';
 
 // myString[0]// J
 for (var i in myString) {
