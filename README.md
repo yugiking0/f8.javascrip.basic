@@ -1,6 +1,7 @@
 # Khóa JavaScript Basic
 
-Phần này mới thêm vào Develope kiểm tra nhé!!!!
+Xem link hướng dẫn ở đây:
+https://yugiking0.github.io/f8.javascrip.basic
 
 ## Phần 01 : Giới thiệu
 

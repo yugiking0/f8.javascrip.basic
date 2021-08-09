@@ -1,11 +1,5 @@
 # Khóa JavaScript Basic
 
-<<<<<<< HEAD
-=======
-Chao moi nguoi kiem tra cho nay nhe
-Bao gồm các nội dung
-
->>>>>>> cc9f244 (Thu day len master cho nay ne)
 ## Phần 01 : Giới thiệu
 
 ### Bài 001: Lời khuyên trước khóa học
