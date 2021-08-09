@@ -1,6 +1,6 @@
 # Khóa JavaScript Basic
 
-Đây là nhánh Develop nhé.
+Đây là nhánh Develop nhé. Update kiểm tra xem thử nào.
 Bao gồm các nội dung:
 
 ## Phần 01 : Giới thiệu
