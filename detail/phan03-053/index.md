@@ -28,3 +28,5 @@ for (var i = 1; i <= 10; i++) {
   console.log(i);
 }
 ```
+
+![Continue](./images/001.png 'Continue')
