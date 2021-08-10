@@ -298,3 +298,7 @@ while (i < languages.length) {
 
 Kiểm tra ví dụ:
 Xem [Kiểm tra](./demo-index.html)
+
+### Bài 053: Break & Continue trong vòng lặp
+
+- Xem [Break & Continue trong vòng lặp](./detail/phan03-053/index.md)

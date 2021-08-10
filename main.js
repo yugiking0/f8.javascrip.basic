@@ -162,39 +162,63 @@
  * Nhập 3 lần kiểm tra
  */
 
-const textID = document.querySelector('#text-id');
-const btnID = document.querySelector('#btn-id');
+// const textID = document.querySelector('#text-id');
+// const btnID = document.querySelector('#btn-id');
 
-// 1. Gán giá trị
-var hiddenString = '123';
-var lan = 1;
-btnID.addEventListener('click', function () {
-  var isSuccess = false;
+// var hiddenString = '123';
+// var lan = 1;
+// btnID.addEventListener('click', function () {
+//   var isSuccess = false;
 
-  do {
-    var numberInput = prompt(`Nhập lần ${lan}`);
+//   do {
+//     var numberInput = prompt(`Nhập lần ${lan}`);
 
-    if (numberInput === hiddenString) {
-      isSuccess = true;
-      doCorrect();
-      break;
-    }
+//     if (numberInput === hiddenString) {
+//       isSuccess = true;
+//       doCorrect();
+//       break;
+//     }
 
-    lan++;
+//     lan++;
 
-    if (lan >= 3) {
-      doDisable();
-      textID.textContent = 'Đã hết lần nhập!';
-    }
-  } while (lan <= 3 && !isSuccess);
-});
+//     if (lan >= 3) {
+//       doDisable();
+//       textID.textContent = 'Đã hết lần nhập!';
+//     }
+//   } while (lan <= 3 && !isSuccess);
+// });
 
-function doCorrect() {
-  textID.textContent = 'Dung roi!';
-  doDisable();
-}
+// function doCorrect() {
+//   textID.textContent = 'Dung roi!';
+//   doDisable();
+// }
 
-// Disable text & Button
-function doDisable() {
-  btnID.disabled = true;
+// // Disable text & Button
+// function doDisable() {
+//   btnID.disabled = true;
+// }
+
+/**
+ * Kiểm tra mã số thẻ cào khi mà mạng chậm
+ * Thử kết nối 3 lần.
+ */
+
+// var numberString = 'ABC123456';
+// var count = 1;
+
+// do {
+//   console.log('Lần ' + count);
+//   setTimeout(function () {
+//     console.log(`Thử lần ${count} : ` + numberString);
+//     count++;
+//   }, 3000);
+//   count++;
+// } while (count <= 3);
+
+for (var i = 1; i <= 10; i++) {
+  if (i % 2 !== 0) {
+    continue;
+  }
+
+  console.log(i);
 }
