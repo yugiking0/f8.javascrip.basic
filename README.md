@@ -300,3 +300,5 @@ while (i < languages.length) {
 
 Kiểm tra ví dụ:
 Xem [Kiểm tra](./demo-index.html)
+
+Kiểm tra
