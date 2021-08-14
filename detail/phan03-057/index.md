@@ -178,7 +178,7 @@ Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_filter.asp
 
 ## 7. Phương thức forEach()
 
-Phương thức forEach() này áp dụng một hàm cho từng phần tử của mảng.
+Phương thức `forEach()` này áp dụng một hàm cho từng phần tử của mảng.
 
 ```js
 const myAwesomeArray = [
