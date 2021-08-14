@@ -56,7 +56,7 @@ myAwesomeArray.some(test => test === 'd');
 //-------> Kết quả : true
 ```
 
-- Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_some.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_some.asp) https://www.w3schools.com/jsref/jsref_some.asp
 
 ---
 
@@ -82,7 +82,7 @@ myAwesomeArray.reduce((total, value) => total * value);
 //-------> Kết quả = 120
 ```
 
-- Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_reduce.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_reduce.asp) https://www.w3schools.com/jsref/jsref_reduce.asp
 
 ---
 
@@ -104,7 +104,7 @@ myAwesomeArray2.every(test => test === 'a');
 //-------> Kết quả : true
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_every.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_every.asp) https://www.w3schools.com/jsref/jsref_every.asp
 
 ---
 
@@ -127,7 +127,7 @@ myAwesomeArray.map(x => x * x);
 //                   1
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_map.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_map.asp) https://www.w3schools.com/jsref/jsref_map.asp
 
 ---
 
@@ -172,7 +172,7 @@ myAwesomeArray.filter(element => element.name === 'Doanh');
 //                   1:{id: 4, name: "Doanh"}
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_filter.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_filter.asp) https://www.w3schools.com/jsref/jsref_filter.asp
 
 ---
 
@@ -193,7 +193,7 @@ myAwesomeArray.forEach(element => console.log(element.name));
 //                   Việt
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_foreach.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_foreach.asp) https://www.w3schools.com/jsref/jsref_foreach.asp
 
 ---
 
@@ -217,7 +217,7 @@ myAwesomeArray.findIndex(element => element.id === 7);
 //-------> Kết quả : -1
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_findindex.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_findindex.asp) https://www.w3schools.com/jsref/jsref_findindex.asp
 
 ---
 
@@ -241,7 +241,7 @@ myAwesomeArray.find(element => element.id === 7);
 //-------> Kết quả : undefined
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_find.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_find.asp) https://www.w3schools.com/jsref/jsref_find.asp
 
 ---
 
@@ -265,7 +265,7 @@ myAwesomeArray.sort((a, b) => b - a);
 
 > Lưu ý: Khi phương thức _**`sort()`**_ so sánh hai giá trị, nó sẽ gửi các giá trị cho hàm so sánh và sắp xếp các giá trị theo giá trị trả về (Âm, 0, Dương)
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_sort.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_sort.asp) https://www.w3schools.com/jsref/jsref_sort.asp
 
 ---
 
@@ -280,7 +280,7 @@ myAwesomeArray1.concat(myAwesomeArray2);
 //-------> Kết quả : [1, 2, 3, 4, 5, 10, 20, 30, 40, 50]
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_concat_array.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_concat_array.asp) https://www.w3schools.com/jsref/jsref_concat_array.asp
 
 ---
 
@@ -298,7 +298,7 @@ myAwesomeArray.fill(0, 1, 3);
 //-------> Kết quả : [1, 0, 0, 4, 5]
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_fill.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_fill.asp) https://www.w3schools.com/jsref/jsref_fill.asp
 
 ---
 
@@ -316,7 +316,7 @@ myAwesomeArray.includes(8);
 //-------> Kết quả : false
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_includes_array.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_includes_array.asp) https://www.w3schools.com/jsref/jsref_includes_array.asp
 
 ---
 
@@ -333,7 +333,7 @@ myAwesomeArray.reverse();
 //-------> Kết quả : ['a', 'b', 'c', 'd', 'e']
 ```
 
-Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_reverse.asp
+[Tham khảo thêm tại đây](https://www.w3schools.com/jsref/jsref_reverse.asp) https://www.w3schools.com/jsref/jsref_reverse.asp
 
 ---
 
