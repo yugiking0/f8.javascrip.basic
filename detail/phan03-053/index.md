@@ -14,7 +14,7 @@ for (var i = 1; i <= 100; i++) {
 }
 ```
 
-- Khi gặp Break sẽ thoát khỏi phòng lặp hiện tại.
+- Khi gặp Break sẽ thoát khỏi vòng lặp hiện tại.
 
 ### 2. Continue
 

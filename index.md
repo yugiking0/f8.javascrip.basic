@@ -214,9 +214,6 @@ for (var i in myString) {
 }
 ```
 
-<!-- ![Console](./images/001.png "Console") -->
-<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
-
 ### Bài 050: Vòng lặp for/of
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
@@ -302,3 +299,34 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 053: Break & Continue trong vòng lặp
 
 - Xem [Break & Continue trong vòng lặp](./detail/phan03-053/index.md)
+
+<!-- ![Console](./images/001.png "Console") -->
+<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
+
+### Bài 054: Vòng lặp lồng nhau (Nested Loop)
+
+- Xem [Vòng lặp lồng nhau - Nested Loop](./detail/phan03-054/index.md)
+
+### Bài 055: Các bài toán về vòng lặp
+
+- Xem [Các bài toán về vòng lặp](./detail/phan03-055/index.md)
+
+### Bài 056: Làm việc với mảng dùng Methods (Phần 2)
+
+- Xem [Làm việc với mảng dùng Methods](./detail/phan03-056/index.md)
+- Array Methods:
+  - forEach()
+  - every()
+  - some()
+  - find()
+  - filter()
+  - map()
+  - reduce()
+
+### Bài 057: Array map() method
+
+- Xem [Array map() method](./detail/phan03-057/index.md)
+
+### Bài 058: Array reduce() method
+
+- Xem [Array reduce() method](./detail/phan03-058/index.md)

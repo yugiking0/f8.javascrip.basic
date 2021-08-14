@@ -215,10 +215,28 @@
 //   count++;
 // } while (count <= 3);
 
-for (var i = 1; i <= 10; i++) {
-  if (i % 2 !== 0) {
-    continue;
-  }
+// for (var i = 1; i <= 10; i++) {
+//   if (i % 2 !== 0) {
+//     continue;
+//   }
 
+//   console.log(i);
+// }
+// prettier-ignore
+// var myArr = [
+//   [1,2],
+//   [3,4],
+//   [5,6],
+//   [7,8]
+// ]
+// // Print 1->8
+// for (var i in myArr) {
+//   // console.log(i);
+//   for (var j in myArr[i]) {
+//     console.log(myArr[i][j]);
+//   }
+// }
+
+for(var i=100; i>0; i-=5){
   console.log(i);
 }
