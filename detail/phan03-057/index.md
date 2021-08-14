@@ -2,11 +2,11 @@
 
 ---
 
-Trong JavaScript, một mảng (array) là một biến đặc biệt được sử dụng để lưu trữ các phần tử khác nhau.
-Mảng có một số thuộc tính tích hợp và phương thức mảng (gọi là array method) mà chúng ta có thể sử dụng để thêm, xóa, lặp hoặc thao với tác dữ liệu theo nhu cầu của mình.
-Và biết sử dụng các Array method có thể nâng cao kỹ năng lập trình Javascript của bạn lên rất nhiều.
+Trong `JavaScript`, một mảng (`array`) là một biến đặc biệt được sử dụng để lưu trữ các phần tử khác nhau.
+Mảng có một số thuộc tính tích hợp và phương thức mảng (gọi là `array method`) mà chúng ta có thể sử dụng để thêm, xóa, lặp hoặc thao với tác dữ liệu theo nhu cầu của mình.
+Và biết sử dụng các `Array method` có thể nâng cao kỹ năng lập trình `Javascript` của bạn lên rất nhiều.
 
-Trong bài viết này, chúng ta sẽ cùng tìm hiểu về 15 Array method của Javascript có thể giúp bạn thao tác với dữ liệu của mình đúng cách vào năm 2021.
+Trong bài viết này, chúng ta sẽ cùng tìm hiểu về `15 Array method của Javascript` có thể giúp bạn thao tác với dữ liệu của mình đúng cách vào năm 2021.
 
 1.  some()
 2.  reduce()
@@ -24,7 +24,7 @@ Trong bài viết này, chúng ta sẽ cùng tìm hiểu về 15 Array method c�
 14. reverse()
 15. flatMap()
 
-> Lưu ý: Trong bài viết này, chúng ta sẽ đơn giản hóa function được truyền dưới dạng tham số. Và, bạn nên HỌC `JAVASCRIPT CƠ BẢN` trước để có thể hiểu rõ các Array Method này.
+> Lưu ý: Trong bài viết này, chúng ta sẽ đơn giản hóa function được truyền dưới dạng tham số. Và, bạn nên HỌC **_`JAVASCRIPT CƠ BẢN`_** trước để có thể hiểu rõ các `Array Method` này.
 
 Ví dụ:
 
@@ -243,38 +243,117 @@ myAwesomeArray.find(element => element.id === 7);
 
 Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_find.asp
 
-```js
+---
 
-```
+## 10. Phương thức sort()
 
-```js
+Phương thức `sort()` này nhận được một hàm như một số. Nó sắp xếp các phần tử của một mảng, và trả nó về.
 
-```
-
-```js
-
-```
+> Lưu ý: Phương thức `sort()` thay đổi mảng gốc.
 
 ```js
+const myAwesomeArray = [5, 4, 3, 2, 1];
 
+// Sắp xếp từ Nhỏ nhất đến Lớn nhất
+myAwesomeArray.sort((a, b) => a - b);
+//-------> Kết quả : [1, 2, 3, 4, 5]
+
+// Sắp xếp từ Lớn nhất đến Nhỏ nhất
+myAwesomeArray.sort((a, b) => b - a);
+//-------> Kết quả : [5, 4, 3, 2, 1]
 ```
+
+> Lưu ý: Khi phương thức _**`sort()`**_ so sánh hai giá trị, nó sẽ gửi các giá trị cho hàm so sánh và sắp xếp các giá trị theo giá trị trả về (Âm, 0, Dương)
+
+Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_sort.asp
+
+---
+
+## 11. Phương thức concat()
+
+Phương thức `concat()` này sẽ hợp nhất hai hoặc nhiều mảng / giá trị bằng cách ghép nó. Nó trả về một mảng mới.
 
 ```js
-
+const myAwesomeArray1 = [1, 2, 3, 4, 5];
+const myAwesomeArray2 = [10, 20, 30, 40, 50];
+myAwesomeArray1.concat(myAwesomeArray2);
+//-------> Kết quả : [1, 2, 3, 4, 5, 10, 20, 30, 40, 50]
 ```
+
+Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_concat_array.asp
+
+---
+
+## 12. Phương thức fill()
+
+Phương thức `fill()` này điền vào tất cả các phần tử của một mảng nhất định có cùng giá trị, từ chỉ mục bắt đầu (mặc định 0) đến chỉ mục kết thúc (mặc định array.length)
 
 ```js
+const myAwesomeArray = [1, 2, 3, 4, 5];
 
+// Đối số đầu tiên (0) là giá trị
+// Đối số thứ hai (1) là chỉ mục bắt đầu
+// Đối số thứ ba (3) là chỉ mục kết thúc (không bao gồm)
+myAwesomeArray.fill(0, 1, 3);
+//-------> Kết quả : [1, 0, 0, 4, 5]
 ```
+
+Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_fill.asp
+
+---
+
+## 13. Phương thức includes()
+
+Phương thức `includes()` này sẽ trả về true nếu mảng chứa một phần tử nhất định và false nếu không.
 
 ```js
+const myAwesomeArray = [1, 2, 3, 4, 5];
 
+myAwesomeArray.includes(3);
+//-------> Kết quả : true
+
+myAwesomeArray.includes(8);
+//-------> Kết quả : false
 ```
+
+Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_includes_array.asp
+
+---
+
+14. Phương thức reverse()
+
+Phương thức `reverse()` này đảo ngược một mảng.
+
+> Lưu ý: Phương thức **_`reverse()`_** này sẽ thay đổi mảng gốc.
 
 ```js
+const myAwesomeArray = ['e', 'd', 'c', 'b', 'a'];
 
+myAwesomeArray.reverse();
+//-------> Kết quả : ['a', 'b', 'c', 'd', 'e']
 ```
+
+Tham khảo thêm tại đây: https://www.w3schools.com/jsref/jsref_reverse.asp
+
+---
+
+## 15. Phương thức flatMap()
+
+Phương thức `flatMap()` áp dụng một hàm cho từng phần tử của mảng và sau đó làm phẳng kết quả thành một mảng. Nó là kết hợp của hai phương thức `flat()` và `map()`.
 
 ```js
+const myAwesomeArray = [[1], [2], [3], [4], [5]];
 
+myAwesomeArray.flatMap(arr => arr * 10);
+//-------> Kết quả : [10, 20, 30, 40, 50]
+
+// Sử dụng .flat() và .map()
+myAwesomeArray.flat().map(arr => arr * 10);
+//-------> Kết quả : [10, 20, 30, 40, 50]
 ```
+
+---
+
+HẾT
+
+---

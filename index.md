@@ -325,9 +325,9 @@ Xem [Kiểm tra](./demo-index.html)
   - map()
   - reduce()
 
-### Bài 057: Array map() method
+### Bài 057: 15 Method Array
 
-- Xem [Array map() method](./detail/phan03-057/index.md)
+- Xem [15 Method Array](./detail/phan03-057/index.md)
 
 ### Bài 058: Array reduce() method
 
