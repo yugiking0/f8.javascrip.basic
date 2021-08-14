@@ -29,7 +29,7 @@ Tiếp theo, ta có thể lưu thông tin vào biến fullName này:
 ```js
 var fullName; // khai báo biến
 
-fullName = "Sơn Đặng"; // gán giá trị
+fullName = 'Sơn Đặng'; // gán giá trị
 ```
 
 Các bạn chú ý có dấu nháy đơn '' bao ngoài chữ Sơn Đặng. Đó là cách để thể hiện dữ liệu dạng chuỗi (văn bản) trong Javascript.
@@ -41,7 +41,7 @@ Chuỗi 'Sơn Đặng' đã được lưu vào vùng nhớ tương ứng với b
 ```js
 var fullName;
 
-fullName = "Sơn Đặng";
+fullName = 'Sơn Đặng';
 
 alert(fullName); // hiển thị giá trị của biến
 ```
@@ -49,7 +49,7 @@ alert(fullName); // hiển thị giá trị của biến
 Để đơn giản và ngắn gọn, ta có thể kết hợp việc khai báo biến và gán giá trị cho biến thành một dòng:
 
 ```js
-var fullName = "Sơn Đặng"; // khai báo và gán giá trị
+var fullName = 'Sơn Đặng'; // khai báo và gán giá trị
 
 alert(fullName);
 ```
@@ -66,9 +66,9 @@ rông có vẻ ngắn gọn, tuy nhiên mình khuyên các bạn không nên dù
 Ta nên khai báo biến trên mỗi dòng khác nhau để dễ đọc hơn (nên dùng cách này):
 
 ```js
-var fullName = "Sơn Đặng";
+var fullName = 'Sơn Đặng';
 var age = 18;
-var workAt = "F8";
+var workAt = 'F8';
 ```
 
 Một số cách khai báo biến trên nhiều dòng khác như sau:
@@ -129,7 +129,7 @@ Các chữ cái không phải tiếng Latin vẫn có thể được sử dụng
 
 <!-- prettier-ignore -->
 ```js
-var ດ້ານວິຊາການ = "..."; // tiếng Pháp
+var ດ້ານວິຊາການ = "..."; // tiếng Thái Lan
 var ਤਕਨੀਕੀ = "..."; // tiếng Lào
 ```
 
