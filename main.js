@@ -237,6 +237,46 @@
 //   }
 // }
 
-for(var i=100; i>0; i-=5){
-  console.log(i);
+// for(var i=100; i>0; i-=5){
+//   console.log(i);
+// }
+
+/**
+ * Array Reduce Method
+ */
+
+var courses = [
+  {id: 1,
+    name: "Javascript",
+    coin: 100
+  },
+  {id: 2,
+    name: "HTML,CSS",
+    coin: 200
+  },
+  {id: 3,
+    name: "Ruby",
+    coin: 300
+  },
+  {id: 4,
+    name: "PHP",
+    coin: 200
+  },
+  {id: 5,
+    name: "React",
+    coin: 480
+  },
+]
+var i = 0;
+var totalCoin = courses.reduce(coinHandler, 0);
+
+function coinHandler(accumulator, currentValue, indexCurrent, originArray) {
+  i++;
+  console.table({
+    'Lần chạy': i,
+    'Biển lưu trữ': accumulator,
+    'Phần từ hiện tại': currentValue,
+    index: indexCurrent,
+    'Mảng ban đầu': originArray,
+  });
 }

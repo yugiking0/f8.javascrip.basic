@@ -1,5 +1,7 @@
 # Khóa JavaScript Basic
 
+https://yugiking0.github.io/f8.javascrip.basic
+
 ## Phần 01 : Giới thiệu
 
 ### Bài 001: Lời khuyên trước khóa học
