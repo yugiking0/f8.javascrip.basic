@@ -336,3 +336,7 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 059: Bài tập reduce method của Array.
 
 - Xem [Bài tập reduce method của Array](./detail/phan03-059/index.md)
+
+### Bài 060: Phương thức reduce có logic như thế nào?
+
+- Xem [Phương thức reduce có logic như thế nào?](./detail/phan03-060/index.md)

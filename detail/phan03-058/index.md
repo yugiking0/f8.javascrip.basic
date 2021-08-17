@@ -65,6 +65,31 @@ var totalCoin = courses.reduce(coinHandler, 0);
 #### Cách 1:
 
 ```js
+/**
+ * Array.prototype.reduce2
+ * @param {*} myCallBack
+ * @param {*} myInitialValue
+ * @returns
+ */
+
+Array.prototype.reduce2 = function (myCallBack, myInitialValue) {
+  if (myInitialValue == undefined) {
+    myInitialValue = 0;
+  }
+
+  // Dùng forEach để lấy được Index và originArray thay vì dùng vòng lặp for/of hoặc for/in
+  this.forEach(function (value, index, originArray) {
+    myInitialValue = myCallBack(myInitialValue, value, index, originArray);
+  });
+  return myInitialValue;
+};
+
+const arr = [1, 2, 3, 4, 5];
+var total = arr.reduce2((acc, cur) => acc + cur);
+console.log(total);
+```
+
+```js
 var depthArray = [1, 2, 3, [4, 5], 6, [7, 8, 9]];
 /**
  * Original Reduce Method Array
@@ -299,3 +324,44 @@ Array.prototype.reduce2 = function (myCallback, initialValue) {
   return total;
 };
 ```
+
+### Cách 16:
+
+```js
+// Bài 01
+Array.prototype.reduce2 = function (myCallBack, myInitialValue) {
+  var i = 0;
+  if (myInitialValue == undefined) {
+    i = 1;
+    myInitialValue = this[0];
+  }
+  for (; i < this.length; i++) {
+    myInitialValue = myCallBack(myInitialValue, this[i], i, this);
+  }
+  return myInitialValue;
+};
+```
+
+---
+
+**Bài tập 02**
+Cho trước tham số grades là một mảng chứa các điểm số. Hãy viết logic tính tổng số điểm trong hàm cho trước.
+
+**_Lưu ý_**
+Hãy quan sát `testacses` để biết được tham số đầu vào và kết quả cần đạt được.
+
+_Ví dụ:_
+
+```js
+// Giá trị của biến grades khi
+// testcase này gọi hàm getSumOfGrades
+Input: [10, 5, 15, 20];
+
+// Kết quả kì vọng hàm
+// getSumOfGrades sẽ trả về
+Expect: 50;
+```
+
+Từ quan sát trên bạn hãy viết nội dung hàm getSumOfGrades sao cho khi đối số là [10, 5, 15, 20] thì kết quả trả về là 50 thì bạn sẽ vượt qua được `testcase` này.
+
+`Testcase` ẩn cũng hoạt động tương tự, tuy nhiên input sẽ được thay đổi khác đi (các bạn sẽ không đoán được). Điều này nhằm tránh việc các bạn làm bài theo dạng `hardcode` (code cứng), nghĩa là bạn biết giá trị cần trả về rồi các bạn return luôn đáp án thay vì làm bài thật.

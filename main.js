@@ -325,6 +325,7 @@ var course = courses.find(function (value, index, originArray) {
 console.log(course); // undefined
 */
 
+/*
 var depthArray = [1,2,3,[4,5],6,[7,8,9]];
 // var flatArray = depthArray.reduce(function (acc, cur) {
 //   return acc.concat(cur);
@@ -342,8 +343,35 @@ Array.prototype.reduce2 = function (myCallBack, myInitialValue) {
   return myInitialValue;
 };
 
-var newArr = depthArray.reduce2(function (acc, cur) {
+var newArr = depthArray.reduce2(function (acc, cur, index, originArray) {
+  console.log(index);
+  console.log(originArray);
   return acc.concat(cur);
 }, []);
 
 console.log(newArr);
+*/
+
+/**
+ * Array.prototype.reduce2
+ * @param {*} myCallBack
+ * @param {*} myInitialValue
+ * @returns
+ */
+
+/*
+Array.prototype.reduce2 = function (myCallBack, myInitialValue) {
+  if (myInitialValue == undefined) {
+    myInitialValue = 0;
+  }
+  this.forEach(function (value, index, originArray) {
+    myInitialValue = myCallBack(myInitialValue, value, index, originArray);
+  });
+  return myInitialValue;
+};
+
+const arr = [1, 2, 3, 4, 5];
+var total = arr.reduce2((acc, cur) => acc + cur, 10);
+console.log(total);
+*/
+
