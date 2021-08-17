@@ -340,3 +340,7 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 060: Phương thức reduce có logic như thế nào?
 
 - Xem [Phương thức reduce có logic như thế nào?](./detail/phan03-060/index.md)
+
+### Bài 061: String/Array includes() method
+
+- Xem [String/Array includes() method](./detail/phan03-061/index.md)

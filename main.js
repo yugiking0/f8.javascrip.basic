@@ -375,3 +375,10 @@ var total = arr.reduce2((acc, cur) => acc + cur, 10);
 console.log(total);
 */
 
+var myArr = ['Javascript','PHP','CSS']
+
+console.log(myArr.includes('PHP')); // true
+console.log(myArr.includes('Javascript', 0)); // true
+console.log(myArr.includes('Javascript', 1)); // false
+// -2 + 3 =  1 // array.length is 3
+console.log(myArr.includes('PHP', -2)); // true
