@@ -332,3 +332,7 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 058: Array reduce() method
 
 - Xem [Array reduce() method](./detail/phan03-058/index.md)
+
+### Bài 059: Bài tập reduce method của Array
+
+- Xem [Bài tập reduce method của Array](./detail/phan03-059/index.md)

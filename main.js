@@ -245,6 +245,7 @@
  * Array Reduce Method
  */
 
+/*
 var courses = [
   {id: 1,
     name: "Javascript",
@@ -280,3 +281,69 @@ function coinHandler(accumulator, currentValue, indexCurrent, originArray) {
     'Mảng ban đầu': originArray,
   });
 }
+*/
+
+/**
+ * Array Methods:
+  - forEach()
+  - every()
+  - some()
+  - find()
+  - filter()
+  - map()
+  - reduce()
+ */
+
+/*
+var courses = [
+    {id: 1,
+      name: "Javascript",
+      coin: 100
+    },
+    {id: 2,
+      name: "HTML,CSS",
+      coin: 200
+    },
+    {id: 3,
+      name: "Ruby",
+      coin: 300
+    },
+    {id: 4,
+      name: "PHP",
+      coin: 200
+    },
+    {id: 5,
+      name: "React",
+      coin: 480
+    },
+  ]
+
+var course = courses.find(function (value, index, originArray) {
+  return value.name == 'SQL'; // undefined
+});
+
+console.log(course); // undefined
+*/
+
+var depthArray = [1,2,3,[4,5],6,[7,8,9]];
+// var flatArray = depthArray.reduce(function (acc, cur) {
+//   return acc.concat(cur);
+// }, []);
+
+// console.log(flatArray);
+
+Array.prototype.reduce2 = function (myCallBack, myInitialValue) {
+  if (myInitialValue == undefined) {
+    myInitialValue = 0;
+  }
+  this.forEach(function (value, index, originArray) {
+    myInitialValue = myCallBack(myInitialValue, value, index, originArray);
+  });
+  return myInitialValue;
+};
+
+var newArr = depthArray.reduce2(function (acc, cur) {
+  return acc.concat(cur);
+}, []);
+
+console.log(newArr);
