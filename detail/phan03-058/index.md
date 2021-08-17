@@ -65,6 +65,34 @@ var totalCoin = courses.reduce(coinHandler, 0);
 #### Cách 1:
 
 ```js
+var depthArray = [1, 2, 3, [4, 5], 6, [7, 8, 9]];
+/**
+ * Original Reduce Method Array
+var flatArray = depthArray.reduce(function (acc, cur) {
+  return acc.concat(cur);
+}, []);
+console.log(flatArray);
+*/
+
+// New Method Array Reduce2
+Array.prototype.reduce2 = function (myCallBack, myInitialValue) {
+  if (myInitialValue == undefined) {
+    myInitialValue = 0;
+  }
+  this.forEach(function (value, index, originArray) {
+    myInitialValue = myCallBack(myInitialValue, value, index, originArray);
+  });
+  return myInitialValue;
+};
+
+var newArr = depthArray.reduce2(function (acc, cur) {
+  return acc.concat(cur);
+}, []);
+
+console.log(newArr);
+```
+
+```js
 /* bài 6 Thêm phương thức reduce2 cho kiểu mảng, 
 logic hoạt động tương tự reduce gốc. */
 
