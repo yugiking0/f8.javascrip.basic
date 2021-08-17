@@ -74,7 +74,7 @@ var flatArray = depthArray.reduce(function (acc, cur) {
 console.log(flatArray);
 */
 
-// New Method Array Reduce2
+// DuyDQ: New Method Array Reduce2
 Array.prototype.reduce2 = function (myCallBack, myInitialValue) {
   if (myInitialValue == undefined) {
     myInitialValue = 0;
