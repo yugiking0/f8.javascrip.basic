@@ -2,7 +2,7 @@
 
 ---
 
-### String includes() method
+### 01. String includes() method
 
 > String.includes(subString,index)
 >
@@ -18,7 +18,7 @@ console.log(myString.includes('Cộng', 0)); // true
 console.log(myString.includes('Cộng', 1)); // false
 ```
 
-### Array includes() method
+### 02. Array includes() method
 
 - Để kiểm tra trong mảng có chứa phần tử cần tìm không.
 
@@ -34,7 +34,7 @@ console.log(myArr.includes('PHP', -2)); // true
 
 ---
 
-### Câu hỏi
+### 03. Câu hỏi
 
 - [x] includes trả về boolean khi hàm được thực thi!
 - [ ] includes trả về 0 hoặc 1 tùy vào đối số có tồn tại trong chuỗi/mảng gốc hay không.
