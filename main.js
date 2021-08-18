@@ -375,10 +375,33 @@ var total = arr.reduce2((acc, cur) => acc + cur, 10);
 console.log(total);
 */
 
-var myArr = ['Javascript','PHP','CSS']
+// var myArr = ['Javascript','PHP','CSS']
 
-console.log(myArr.includes('PHP')); // true
-console.log(myArr.includes('Javascript', 0)); // true
-console.log(myArr.includes('Javascript', 1)); // false
-// -2 + 3 =  1 // array.length is 3
-console.log(myArr.includes('PHP', -2)); // true
+// console.log(myArr.includes('PHP')); // true
+// console.log(myArr.includes('Javascript', 0)); // true
+// console.log(myArr.includes('Javascript', 1)); // false
+// // -2 + 3 =  1 // array.length is 3
+// console.log(myArr.includes('PHP', -2)); // true
+
+// var number =Math.round(Math.random()*5+1);
+// console.log(number);
+
+// 1. Ta có 1 hàm kiểm tra đối số truyền vào như sau:
+function myFunction(para) {
+  if(typeof para === "function") {
+    para('Học lập trình Javascript');
+  }
+}
+
+// 2. Tạo 1 hàm khác
+function myCallback(myValue) {
+  console.log('Giá trị:', myValue);
+}
+
+// 3. Truyền vào hàm trên
+myFunction(myCallback); // Kiểu dữ liệu:  function
+
+// 4. Gọi hàm
+myCallback('Học lập trình Javascript');
+myFunction(123); // Kiểu dữ liệu:  number
+myFunction('Javascript'); // Kiểu dữ liệu:  string

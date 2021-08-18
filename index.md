@@ -344,3 +344,11 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 061: String/Array includes() method
 
 - Xem [String/Array includes() method](./detail/phan03-061/index.md)
+
+### Bài 062: Math Object
+
+- Xem [Math Object](./detail/phan03-062/index.md)
+
+### Bài 063: Callback
+
+- Xem [Callback](./detail/phan03-063/index.md)
