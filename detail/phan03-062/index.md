@@ -18,10 +18,11 @@ Những thuộc tính của Math thường được dùng bao gồm:
 - Math.random() : Tạo 1 số ngẫu nhiên từ 0 -> 1
 - Math.max() : Lấy giá trị lớn nhất
 - Math.min() : Lấy giá trị nhỏ nhất
+- ... Xem thêm [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 ---
 
-### 1.Math.PI
+### 1. Math.PI
 
 ```js
 var number = Math.PI;
@@ -30,7 +31,7 @@ console.log(number); // 3.141592653589793
 
 ---
 
-### 2.Math.round()
+### 2. Math.round()
 
 ```js
 console.log(Math.round(9.75)); // 10
@@ -41,7 +42,7 @@ console.log(Math.round(5.49)); // 5
 
 ---
 
-### 3.Math.abs()
+### 3. Math.abs()
 
 ```js
 console.log(Math.abs(-9)); // 9
@@ -52,7 +53,7 @@ console.log(Math.abs(-5.21)); // 5.21
 
 ---
 
-### 4.Math.ceil()
+### 4. Math.ceil()
 
 ```js
 console.log(Math.ceil(9.1)); // 10
@@ -63,7 +64,7 @@ console.log(Math.ceil(5.21)); // 6
 
 ---
 
-### 5.Math.floor()
+### 5. Math.floor()
 
 ```js
 console.log(Math.floor(9.1)); // 9
@@ -74,7 +75,7 @@ console.log(Math.floor(5.21)); // 5
 
 ---
 
-### 6.Math.random()
+### 6. Math.random()
 
 ```js
 console.log(Math.random()); // 0.05194999912333054
@@ -102,7 +103,7 @@ console.log(Math.round(Math.random() * 99 + 1));
 
 ---
 
-### 7.Math.min() & Math.min()
+### 7. Math.min() & Math.max()
 
 ```js
 console.log(Math.min(92, -4, 3, 78, -21, 39)); // -21

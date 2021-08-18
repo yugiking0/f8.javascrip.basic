@@ -4,7 +4,7 @@
 
 ### 1. Callback là gì ?
 
-> Là hàm (function) được truyền qua đối số, khi được gọi bởi hàm khác.
+> Là hàm (function) được truyền qua đối số khi được gọi bởi hàm khác.
 
 - 1. Là hàm
 - 2. Được truyền qua đối số
