@@ -14,11 +14,11 @@
 - [ ] Là một kiểu dữ liệu mới trong Javascript
 - [ ] Là một khái niệm mới trong Javascript
 - [ ] Là một giá trị mới trong javascript
-- [x] Là một khái niệm nói lên cách hàm được sử dụng
+- [x] **_Là một khái niệm nói lên cách hàm được sử dụng_**
 
 ### 2. Như thế nào được gọi là một callback ?
 
-- [x] (1) Là một hàm. (2) Dùng làm đối số khi gọi hàm khác
+- [x] **_(1) Là một hàm. (2) Dùng làm đối số khi gọi hàm khác_**
 - [ ] (1) Là một hàm. (2) Không đặt tên cho hàm
 - [ ] Chỉ cần là một hàm
 - [ ] (1) Là một giá trị khác function. (2) Được dùng làm đối số khi gọi hàm
