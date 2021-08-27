@@ -1,4 +1,4 @@
-# Khóa JavaScript Basic
+# Khóa JavaScript Basic:
 
 https://yugiking0.github.io/f8.javascrip.basic
 

@@ -2,13 +2,13 @@
 
 ---
 
-Math không phải là Object Constructor nên không thể khởi tạo cho đổi tượng.
+`Math` không phải là `Object Constructor` nên không thể khởi tạo cho đổi tượng.
 
 ```js
 var number = new Math(); // Math is not a constructor
 ```
 
-Những thuộc tính của Math thường được dùng bao gồm:
+Những thuộc tính của `Math` thường được dùng bao gồm:
 
 - Math.PI : Lấy số PI
 - Math.round() : Làm tròn
@@ -84,7 +84,7 @@ console.log(Math.random()); // 0.2673795031042312
 ```
 
 - Áp dụng:
-  - Thảy đồng tiền ngửa - xắp, 0-1, Đúng - Sai,...
+  - Thảy đồng tiền ngửa - xắp, 0-1, Đúng-Sai,...
   - Đổ xúc sắc 1-> 6 nút
   - Ngẫu nhiên 1 số từ 1 -> n cho trước.
 
