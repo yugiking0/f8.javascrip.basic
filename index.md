@@ -352,3 +352,7 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 063: Callback
 
 - Xem [Callback](./detail/phan03-063/index.md)
+
+### Bài 063: Callback2
+
+- Xem [Callback2](./detail/phan03-064/index.md)

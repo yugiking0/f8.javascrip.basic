@@ -385,7 +385,7 @@ console.log(total);
 
 // var number =Math.round(Math.random()*5+1);
 // console.log(number);
-
+/*
 // 1. Ta có 1 hàm kiểm tra đối số truyền vào như sau:
 function myFunction(para) {
   if(typeof para === "function") {
@@ -405,3 +405,145 @@ myFunction(myCallback); // Kiểu dữ liệu:  function
 myCallback('Học lập trình Javascript');
 myFunction(123); // Kiểu dữ liệu:  number
 myFunction('Javascript'); // Kiểu dữ liệu:  string
+*/
+
+/*
+var courses = [
+  'Javascript',
+  'CSS',
+  'Html'
+]
+var languages = 7;
+// var htmls = courses.map(function (course) {
+//   return `<h1>${course}</h1>`;
+// });
+// console.log(htmls.join(''));
+
+// 1. Khai báo vào Prototype của Array thêm 1 Method mới
+Array.prototype.map2 = function (callBack) {
+  // 0. Check đối số truyền vào
+  console.log(typeof this);
+
+  //console.log(this); // Kiểm tra key word this gọi lại
+  // Vì map sẽ trả về 1 mảng nên ta sẽ thêm 1 mảng tạm và return về mảng này
+  var output = [];
+  var lengthArray = this.length;
+  for (var i = 0; i < lengthArray; i++) {
+    var result = callBack(this[i], i);
+    output.push(result);
+  }
+  return output;
+};
+
+languages.map2(function (course) {
+  return `<h1>${course}</h1>`;
+});
+
+var html2s = courses.map2(function (course) {
+  return `<h1>${course}</h1>`;
+});
+console.log(html2s.join(''));
+*/
+
+/*
+var courses = [
+  { course: 'Javascript', value: 10 },
+  { course: 'CSS', value: 20 },
+  { course: 'Html', value: 30 },
+];
+
+var total = courses.reduce(function (acc, cur, index, arr) {
+  return acc + cur.value;
+}, 10);
+
+console.log(total);
+
+// Viết lại
+Array.prototype.reduce2 = function (callBack) {
+  console.log(arguments.length); // 1. Kiểm tra số tham số truyền vào.
+  var acc = this[0];
+  var i = 1;
+  var lengthArr = this.length;
+  if (arguments.length > 1) {
+    acc = arguments[1];
+    i = 0;
+  }
+  for (i; i < lengthArr; i++) {
+    acc = callBack(acc, this[i], i, this);
+  }
+  return acc;
+};
+
+var total2 = courses.reduce2(function (acc, cur, index, arr) {
+  return acc + '<h1>' + cur.course + '</h1>';
+}, '');
+
+console.log(total2);
+
+// Viết lại
+Array.prototype.reduce3 = function (callBack, initialValue) {
+  console.log(arguments.length); // 1. Kiểm tra số tham số truyền vào.
+  var i = 0;
+  var lengthArr = this.length;
+  if (arguments.length < 2) {
+    initialValue = this[0];
+    i = 1;
+  }
+  for (i; i < lengthArr; i++) {
+    initialValue = callBack(initialValue, this[i], i, this);
+  }
+  return initialValue;
+};
+
+var total3 = courses.reduce3(function (acc, cur, index, arr) {
+  return acc + '<h1>' + cur.course + '</h1>';
+}, '');
+
+console.log(total3);
+*/
+/*
+var courses = [
+  { course: 'Javascript', value: 10 },
+  { course: 'CSS', value: 20 },
+  { course: 'Html', value: 30 },
+];
+
+var filterArr = courses.filter(function (item) {
+  return item.value > 10;
+});
+console.log(filterArr);
+
+Array.prototype.filter2 = function (callBack) {
+  var output = [];
+  var lengthArr = this.length;
+  for (var i = 0; i < lengthArr; i++) {
+    if (callBack(this[i], i, this) === true) {
+      output.push(this[i]);
+    }
+  }
+  return output;
+};
+
+filterArr = courses.filter2(function (item) {
+  return item.value > 5;
+});
+console.log(filterArr);
+*/
+
+/**
+ * flat : Làm phẳng mảng
+ */
+const arr1 = [0, 1, 2, [3, 4]];
+const arr2 = [0, 1, 2, [[[3, 4]]]];
+
+Array.prototype.flat2 = function (callBack) {
+  var output = [];
+  var lengthArr = this.length;
+  output = this.reduce(function (acc, cur) {
+    return !Array.isArray(cur) ? acc.concat(cur) : acc.concat(cur.flat2());
+  }, []);
+
+  return output;
+};
+console.log(arr1.flat2());
+console.log(arr2.flat2(2));
