@@ -533,6 +533,7 @@ console.log(filterArr);
 /**
  * flat : Làm phẳng mảng
  */
+/*
 const arr1 = [0, 1, 2, [3, 4]];
 const arr2 = [0, 1, 2, [[[3, 4]]]];
 
@@ -547,3 +548,56 @@ Array.prototype.flat2 = function (callBack) {
 };
 console.log(arr1.flat2());
 console.log(arr2.flat2(2));
+*/
+/*
+// ### 8. some
+var courses = [
+  { course: 'Javascript', value: 10 },
+  { course: 'CSS', value: 20 },
+  { course: 'Html', value: 30 },
+];
+
+var newCourses = courses.every(function (course, index, arr) {
+  return course.value > 15;
+});
+console.log(newCourses);
+
+Array.prototype.every2 = function (callBack) {
+  var lengthArr = this.length;
+  var output = true;
+  for (var i = 0; i < lengthArr; i++) {
+    if (!callBack(this[i], i, this)) {
+      output = false;
+      break;
+    }
+  }
+  return output;
+};
+var newCourses2 = courses.every2(function (course, index, arr) {
+  return course.value > 15;
+});
+console.log(newCourses2);
+
+console.log(Array.prototype);
+*/
+/*
+var courses = ['Javascript','PHP','CSS'];
+courses.length = 10;
+
+Array.prototype.every2 = function (callBack) {
+  callBack(this);
+};
+console.log(courses);
+
+console.log('--1---------------------');
+for (var index in courses) {
+  console.log(courses[index]);
+}
+
+console.log('--2---------------------');
+for (var index in courses) {
+  if (courses.hasOwnProperty(index)) {
+    console.log(courses[index]);
+  }
+}
+*/

@@ -353,6 +353,17 @@ Xem [Kiểm tra](./demo-index.html)
 
 - Xem [Callback](./detail/phan03-063/index.md)
 
-### Bài 063: Callback2
+### Bài 064: Callback - Phần 2
 
-- Xem [Callback2](./detail/phan03-064/index.md)
+- Xem [Callback - Phần 2](./detail/phan03-064/index.md)
+
+### Bài 065: Empty elements of array
+
+- Xem [Empty elements of array](./detail/phan03-065/index.md)
+
+### Bài 066: My filter() method
+
+- Xem [My filter() method](./detail/phan03-066/index.md)
+
+<!-- ![Console](./images/001.png "Console") -->
+<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->

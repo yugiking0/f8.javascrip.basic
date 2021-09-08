@@ -57,6 +57,8 @@ Viết lại các phương thức mới tương tự như:
 - reduce
 - find
 - filter
+- some
+- every
 - ...
 
 ### 1. forEach2
@@ -288,4 +290,73 @@ Array.prototype.flat2 = function (callBack) {
 
   return output;
 };
+```
+
+### 8. some
+
+- Tồn tại một phần tử trong mảng, thỏa mãn điều kiện thì sẽ trả về True.
+
+```js
+var courses = [
+  { course: 'Javascript', value: 10 },
+  { course: 'CSS', value: 20 },
+  { course: 'Html', value: 30 },
+];
+
+var newCourses = courses.some(function (course, index, arr) {
+  return course.value > 15; // 20
+});
+console.log(newCourses); // true
+
+//Viết lại
+
+Array.prototype.some2 = function (callBack) {
+  var lengthArr = this.length;
+  var output = false;
+  for (var i = 0; i < lengthArr; i++) {
+    if (callBack(this[i], i, this)) {
+      output = true;
+      break;
+    }
+  }
+  return output;
+};
+var newCourses2 = courses.some2(function (course, index, arr) {
+  return course.value > 15;
+});
+console.log(newCourses2);
+```
+
+### 9. every
+
+- Tất cả mọu phần tử trong mảng thỏa mãn thì trả về true
+- Tồn tại một phần tử không thỏa mãn, thì trả về false ngay.
+
+```js
+var courses = [
+  { course: 'Javascript', value: 10 },
+  { course: 'CSS', value: 20 },
+  { course: 'Html', value: 30 },
+];
+
+var newCourses = courses.every(function (course, index, arr) {
+  return course.value > 15;
+});
+console.log(newCourses);
+
+Array.prototype.every2 = function (callBack) {
+  var lengthArr = this.length;
+  var output = true;
+  for (var i = 0; i < lengthArr; i++) {
+    if (!callBack(this[i], i, this)) {
+      output = false;
+      break;
+    }
+  }
+  return output;
+};
+var newCourses2 = courses.every2(function (course, index, arr) {
+  return course.value > 15;
+});
+console.log(newCourses2);
 ```
