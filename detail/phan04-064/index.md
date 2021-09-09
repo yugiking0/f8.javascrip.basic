@@ -102,6 +102,8 @@ console.log(h2tag);
 
 ## 4. CSS Selector
 
+### 4.1 Chọn 1 phần tử: `document.querySelector`
+
 - Chọn đối tượng giống như cách mà CSS chọn các đối tượng của html, thông qua câu lệnh `document.querySelector`
 
 ```js
@@ -118,3 +120,113 @@ console.log(h2);
 ![CSS Selector](./images/004.png 'CSS Selector')
 
 - Cần xem ôn lại mục CSS Selector [CSS selector](./css-selector.md)
+
+Ví dụ:
+
+```html
+<body>
+  <h1 id="title">F8 - Javascript Basic</h1>
+  <h2 class="heading-2">Heading 2.0</h2>
+  <h1 class="heading">HTML DOM</h1>
+
+  <div class="box">
+    <h2 class="heading-2">Heading 2.1</h2>
+    <h2 class="heading-2">Heading 2.2</h2>
+    <h2 class="heading-2">Heading 2.3</h2>
+    <h2 class="heading-2">Heading 2.4</h2>
+  </div>
+</body>
+```
+
+1. Lấy thẻ h2 Đầu tiên thuộc box.
+
+```js
+var heading2Node = document.querySelector('.box .heading-2:first-child');
+console.log(heading2Node);
+```
+
+![Heading 2 đầu tiên thuộc Box](./images/005.png 'Heading 2 đầu tiên thuộc Box')
+
+2. Lấy thẻ h2 thứ 2 thuộc box.
+
+```js
+var heading2Node2 = document.querySelector('.box .heading-2:nth-child(2)');
+console.log(heading2Node2);
+```
+
+![Heading 2 thứ hai thuộc Box](./images/006.png 'Heading 2 thứ hai thuộc Box')
+
+### 4.2 Chọn nhiều phần tử: `document.querySelectorAll`
+
+- Thông qua câu lệnh `document.querySelectorAll` sẽ trả về 1 danh sách `NodeList` gần giống như mảng Array.
+
+> **Ví dụ:**
+
+```html
+<body>
+  <h1 id="title">F8 - Javascript Basic</h1>
+  <h2 class="heading-2">Heading 2.0</h2>
+  <h1 class="heading">HTML DOM</h1>
+
+  <div class="box">
+    <h2 class="heading-2">Heading 2.1</h2>
+    <h2 class="heading-2">Heading 2.2</h2>
+    <h2 class="heading-2">Heading 2.3</h2>
+    <h2 class="heading-2">Heading 2.4</h2>
+  </div>
+</body>
+```
+
+- Lấy danh sách các đối tượng class="heading-2"
+
+```js
+var heading2Nodes = document.querySelectorAll('.box .heading-2');
+console.log(heading2Nodes);
+```
+
+![querySelectorAll](./images/007.png 'querySelectorAll')
+
+- Từ đây có thể lấy từng phần tử từ danh sách này giống như Array thông qua vòng lặp for hoặc while như sau:
+
+```js
+var heading2Nodes = document.querySelectorAll('.box .heading-2');
+console.log(heading2Nodes[2]); // lấy phần tử thứ 3 trong danh sách
+```
+
+![querySelectorAll](./images/008.png 'querySelectorAll')
+
+## 5. HTML Collection
+
+```html
+<body>
+    <h1 class="title">F8 - HTML DOM</h1>
+
+    <h2 class="heading-2">Heading 2.1</h2>
+    <h2 class="heading-2">Heading 2.2</h2>
+
+    <form action="" class="form-1">Đăng ký</form>
+    <form action="" class="test">Form test</form>
+    <form action="" class="form-2">Đề nghị</form>
+
+    <a href="https://youtube.com" name="Youtube">Youtube</a>
+    </div>
+
+    <script src=".\main.js"></script>
+  </body>
+```
+
+- Với HTML Collection cho phép chọn trực tiếp 1 số đối tượng từ document trực tiếp có hỗ trợ như:
+  - Form
+  - Archer: liên kế link
+
+```js
+var listForm = document.forms;
+console.log(listForm);
+console.log(listForm[1]);
+console.log(document.forms['form-1']);
+
+console.log(document.forms.test);
+console.log(document.anchors);
+```
+
+![HTML Collection](./images/009.png 'HTML Collection')

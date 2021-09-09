@@ -1,8 +1,7 @@
-var att = document.querySelector('#att');
-console.log(att);
+var listForm = document.forms;
+console.log(listForm);
+console.log(listForm[1]);
+console.log(document.forms['form-1']);
 
-var h2class = document.querySelector('.h2class');
-console.log(h2class);
-
-var h2 = document.querySelector('h1');
-console.log(h2);
+console.log(document.forms.test);
+console.log(document.anchors);
