@@ -230,3 +230,5 @@ console.log(document.anchors);
 ```
 
 ![HTML Collection](./images/009.png 'HTML Collection')
+
+- Nghiên cứu thêm [HTML Collection](https://www.w3schools.com/jsref/dom_obj_htmlcollection.asp) https://www.w3schools.com/jsref/dom_obj_htmlcollection.asp
