@@ -364,6 +364,16 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 066: My filter() method
 
 - Xem [My filter() method](./detail/phan03-066/index.md)
+- Tham khảo [Value Type và Reference Type](./detail/phan03-066/value-reference.md)
+  <!-- ![Console](./images/001.png "Console") -->
+  <!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
 
-<!-- ![Console](./images/001.png "Console") -->
-<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
+### Bài 059: My some() method và My every()
+
+- Xem [My some() method](./detail/phan03-067/index.md)
+
+## Phần 04 : HTML DOM
+
+### Bài 064: Get element method - Phần 1
+
+- Xem [Get element method - Phần 1](./detail/phan04-064/index.md)
