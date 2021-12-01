@@ -1,6 +1,8 @@
 # Khóa JavaScript Basic:
 
-https://yugiking0.github.io/f8.javascrip.basic
+---
+
+https://github.com/yugiking0/f8.javascrip.basic/tree/develope
 
 ## Phần 01 : Giới thiệu
 
