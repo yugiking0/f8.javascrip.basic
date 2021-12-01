@@ -335,3 +335,70 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 058: Array reduce() method
 
 - Xem [Array reduce() method](./detail/phan03-058/index.md)
+
+### Bài 059: Bài tập reduce method của Array.
+
+- Xem [Bài tập reduce method của Array](./detail/phan03-059/index.md)
+
+### Bài 060: Phương thức reduce có logic như thế nào?
+
+- Xem [Phương thức reduce có logic như thế nào?](./detail/phan03-060/index.md)
+
+### Bài 061: String/Array includes() method
+
+- Xem [String/Array includes() method](./detail/phan03-061/index.md)
+
+### Bài 062: Math Object
+
+- Xem [Math Object](./detail/phan03-062/index.md)
+
+### Bài 063: Callback
+
+- Xem [Callback](./detail/phan03-063/index.md)
+
+### Bài 064: Callback - Phần 2
+
+- Xem [Callback - Phần 2](./detail/phan03-064/index.md)
+
+### Bài 065: Empty elements of array
+
+- Xem [Empty elements of array](./detail/phan03-065/index.md)
+
+### Bài 066: My filter() method
+
+- Xem [My filter() method](./detail/phan03-066/index.md)
+- Tham khảo [Value Type và Reference Type](./detail/phan03-066/value-reference.md)
+  <!-- ![Console](./images/001.png "Console") -->
+  <!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
+
+### Bài 059: My some() method và My every()
+
+- Xem [My some() method](./detail/phan03-067/index.md)
+
+---
+
+## Phần 04 : HTML DOM
+
+### Bài 070: HTML DOM là gì?
+
+- Xem [HTML DOM là gì?](./detail/phan04-070/index.md)
+
+### Bài 071: HTML DOM vs DOM API
+
+- Xem [HTML DOM vs DOM API](./detail/phan04-071/index.md)
+
+### Bài 072: Document object
+
+- Xem [Document object](./detail/phan04-072/index.md)
+
+### Bài 073: Get element method - Phần 1
+
+- Xem [Get element method - Phần 1](./detail/phan04-073/index.md)
+
+### Bài 074: Get element method - Phần 2
+
+- Xem [Get element method - Phần 2](./detail/phan04-074/index.md)
+
+### Bài 075: Get element method - Phần 3
+
+- Xem [Get element method - Phần 3](./detail/phan04-075/index.md)
