@@ -372,8 +372,30 @@ Xem [Kiểm tra](./demo-index.html)
 
 - Xem [My some() method](./detail/phan03-067/index.md)
 
+---
+
 ## Phần 04 : HTML DOM
 
-### Bài 064: Get element method - Phần 1
+### Bài 070: HTML DOM là gì?
 
-- Xem [Get element method - Phần 1](./detail/phan04-064/index.md)
+- Xem [HTML DOM là gì?](./detail/phan04-070/index.md)
+
+### Bài 071: HTML DOM vs DOM API
+
+- Xem [HTML DOM vs DOM API](./detail/phan04-071/index.md)
+
+### Bài 072: Document object
+
+- Xem [Document object](./detail/phan04-072/index.md)
+
+### Bài 073: Get element method - Phần 1
+
+- Xem [Get element method - Phần 1](./detail/phan04-073/index.md)
+
+### Bài 074: Get element method - Phần 2
+
+- Xem [Get element method - Phần 2](./detail/phan04-074/index.md)
+
+### Bài 075: Get element method - Phần 3
+
+- Xem [Get element method - Phần 3](./detail/phan04-075/index.md)
