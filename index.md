@@ -393,6 +393,8 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 073: Get element method - Phần 1
 
 - Xem [Get element method - Phần 1](./detail/phan04-073/index.md)
+- Xem lại [CSS-Selector](./detail/phan04-073/css-selector.md)
+- [Bài tập](./detail/phan04-073/baitap.md)
 
 ### Bài 074: Get element method - Phần 2
 
@@ -401,3 +403,10 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 075: Get element method - Phần 3
 
 - Xem [Get element method - Phần 3](./detail/phan04-075/index.md)
+- Nghiên cứu thêm về [Query Selector Element DOM](./detail/phan04-075/query-selector.md)
+
+### Bài 076: Attribute node & Text node
+
+- Xem [Attribute node & Text node](./detail/phan04-076/index.md)
+  <!-- ![Console](./images/001.png "Console") -->
+  <!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->

@@ -1,7 +1,0 @@
-# Bài tập CSS selector
-
----
-
-```
-
-```

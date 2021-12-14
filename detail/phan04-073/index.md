@@ -228,7 +228,7 @@ console.log(heading2Nodes[2]); // lấy phần tử thứ 3 trong danh sách
 
 - Với HTML Collection cho phép chọn trực tiếp 1 số đối tượng từ document trực tiếp có hỗ trợ như:
   - Form
-  - Archer: liên kế link
+  - Archer: liên kết link
 
 ```js
 var listForm = document.forms;
