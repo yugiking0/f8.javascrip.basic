@@ -1,6 +1,6 @@
 # Khóa JavaScript Basic
 
-Bao gồm các nội dung
+https://yugiking0.github.io/f8.javascrip.basic
 
 ## Phần 01 : Giới thiệu
 
@@ -80,9 +80,6 @@ Bao gồm các nội dung
 ### Bài 024: Truthy và Falsy
 
 - Xem [Truthy và Falsy](./detail/phan02-024/index.md)
-
-<!-- ![Console](./images/001.png "Console") -->
-<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
 
 ## Phần 03 : Kiến thức cốt lỗi (Phần 1)
 
@@ -219,9 +216,119 @@ for (var i in myString) {
 }
 ```
 
-<!-- ![Console](./images/001.png "Console") -->
-<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
+### Bài 050: Vòng lặp for/of
+
+- Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
 
 ### Bài 050: Vòng lặp for/of
 
 - Xem [Vòng lặp for/of](./detail/phan03-050/index.md)
+
+```js
+// prettier-ignore
+var languages = [
+    'Javascript', 
+    'CSS',
+    'Html', 
+    'Java'];
+
+// 1.for/of
+console.log('---1. for/of----');
+for (var course of languages) {
+  console.log(course);
+}
+// 2.for/in
+console.log('---2. for/of----');
+for (var index in languages) {
+  console.log(index, languages[index]);
+}
+```
+
+```js
+var myString = 'Javascript';
+for (var char of myString) {
+  console.log(char);
+} // J a v a s c r i p t
+```
+
+```js
+var myInfo = {
+  firstName: 'Dinh',
+  lastName: 'Quang Duy',
+  birthYear: 1985,
+  address: 'Đà Nẵng',
+  country: 'Việt Nam',
+};
+console.log(Object.keys(myInfo));
+console.log(Object.values(myInfo));
+
+for (var item of Object.keys(myInfo)) {
+  console.log(item);
+}
+
+for (var item of Object.values(myInfo)) {
+  console.log(item);
+}
+```
+
+### Bài 051: Vòng lặp while
+
+- Xem [Vòng lặp while](./detail/phan03-051/index.md)
+
+```js
+var i = 1;
+while (i <= 100) {
+  console.log('Line :', i);
+  i++;
+}
+```
+
+```js
+var languages = ['Javascript', 'CSS', 'Html', 'Java'];
+while (i < languages.length) {
+  console.log(languages[i]);
+  i++;
+}
+```
+
+### Bài 052: Vòng lặp do/while
+
+- Xem [Vòng lặp do/while](./detail/phan03-052/index.md)
+
+Kiểm tra ví dụ:
+Xem [Kiểm tra](./demo-index.html)
+
+### Bài 053: Break & Continue trong vòng lặp
+
+- Xem [Break & Continue trong vòng lặp](./detail/phan03-053/index.md)
+
+<!-- ![Console](./images/001.png "Console") -->
+<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
+
+### Bài 054: Vòng lặp lồng nhau (Nested Loop)
+
+- Xem [Vòng lặp lồng nhau - Nested Loop](./detail/phan03-054/index.md)
+
+### Bài 055: Các bài toán về vòng lặp
+
+- Xem [Các bài toán về vòng lặp](./detail/phan03-055/index.md)
+
+### Bài 056: Làm việc với mảng dùng Methods (Phần 2)
+
+- Xem [Làm việc với mảng dùng Methods](./detail/phan03-056/index.md)
+- Array Methods:
+  - forEach()
+  - every()
+  - some()
+  - find()
+  - filter()
+  - map()
+  - reduce()
+
+### Bài 057: Array map() method
+
+- Xem [Array map() method](./detail/phan03-057/index.md)
+
+### Bài 058: Array reduce() method
+
+- Xem [Array reduce() method](./detail/phan03-058/index.md)
