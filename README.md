@@ -3,6 +3,8 @@
 Xem link hướng dẫn ở đây:
 https://yugiking0.github.io/f8.javascrip.basic
 
+https://yugiking0.github.io/f8.javascrip.basic/f8
+
 ## Phần 01 : Giới thiệu
 
 ### Bài 001: Lời khuyên trước khóa học

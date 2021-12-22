@@ -4,6 +4,8 @@
 
 https://github.com/yugiking0/f8.javascrip.basic/tree/develope
 
+- Xem [F8 phần nội dung Promise](https://yugiking0.github.io/f8.javascrip.basic/f8)
+
 ## Phần 01 : Giới thiệu
 
 ### Bài 001: Lời khuyên trước khóa học
@@ -410,3 +412,7 @@ Xem [Kiểm tra](./demo-index.html)
 - Xem [Attribute node & Text node](./detail/phan04-076/index.md)
   <!-- ![Console](./images/001.png "Console") -->
   <!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
+
+### Bài 077: Attribute node & Text node
+
+- Xem [Attribute node & Text node](./detail/phan04-076/index.md)
