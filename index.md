@@ -6,6 +6,8 @@ https://github.com/yugiking0/f8.javascrip.basic/tree/develope
 
 - Xem [F8 phần nội dung Promise](https://yugiking0.github.io/f8.javascrip.basic/f8)
 
+---
+
 ## Phần 01 : Giới thiệu
 
 ### Bài 001: Lời khuyên trước khóa học
