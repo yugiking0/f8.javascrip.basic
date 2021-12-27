@@ -415,6 +415,14 @@ Xem [Kiểm tra](./demo-index.html)
   <!-- ![Console](./images/001.png "Console") -->
   <!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
 
-### Bài 077: Attribute node & Text node
+### Bài 077: DOM attribute
 
-- Xem [Attribute node & Text node](./detail/phan04-076/index.md)
+- Xem [DOM attribute](./detail/phan04-077/index.md)
+
+### Bài 078: InnerText vs textContent Property
+
+- Xem [InnerText vs textContent Property](./detail/phan04-078/index.md)
+
+### Bài 079: InnerHTML vs OuterHTML Property
+
+- Xem [InnerHTML vs OuterHTML Property](./detail/phan04-079/index.md)
