@@ -412,8 +412,6 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 076: Attribute node & Text node
 
 - Xem [Attribute node & Text node](./detail/phan04-076/index.md)
-  <!-- ![Console](./images/001.png "Console") -->
-  <!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
 
 ### Bài 077: DOM attribute
 
@@ -426,3 +424,36 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 079: InnerHTML vs OuterHTML Property
 
 - Xem [InnerHTML vs OuterHTML Property](./detail/phan04-079/index.md)
+
+### Bài 080: Node Property
+
+- Xem [Node Property](./detail/phan04-080/index.md)
+
+### Bài 081: DOM CSS
+
+- Xem [DOM CSS](./detail/phan04-081/index.md)
+
+### Bài 082: ClassList Property
+
+- Xem [ClassList Property](./detail/phan04-082/index.md)
+
+
+### Bài 083: DOM events
+
+- Xem [DOM events](./detail/phan04-083/index.md)
+
+### Bài 084: DOM events example
+
+- Xem [DOM events](./detail/phan04-084/index.md)
+
+### Bài 085: PreventDefault and StopPropagation
+
+- Xem [PreventDefault and StopPropagation](./detail/phan04-085/index.md)
+
+
+### Bài 086: Event listener
+
+- Xem [Event listener](./detail/phan04-086/index.md)
+
+<!-- ![Console](./images/001.png "Console") -->
+<!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
