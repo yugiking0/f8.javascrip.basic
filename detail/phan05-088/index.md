@@ -1,7 +1,19 @@
-# Xử lý bất đồng bộ trong JavaScript
+# XỬ LÝ BẤT ĐỒNG BỘ TRONG JAVASCRIPT
 
 ---
 
+  - [Đồng bộ và bất đồng bộ](#i-đồng-bộ-và-bất-đồng-bộ)
+    - [Khái niệm](#1-khái-niệm)
+    - [So sánh ưu nhược điểm của lập trình đồng bộ và bất đồng bộ](#2-so-sánh-ưu-nhược-điểm-của-lập-trình-đồng-bộ-và-bất-đồng-bộ)
+  - [Bất đồng bộ trong JavaScript](#ii-bất-đồng-bộ-trong-javascript)
+  - [Xử lý bất đồng bộ trong JavaScript](#iii-xử-lý-bất-đồng-bộ-trong-javascript)
+    - [Call Back](#1-call-back)
+    - [Promise](#2-promise)
+    - [Async / Await](#3-async-await)
+  - [Tổng kết](#iv-tổng-kết)
+
+
+---
 ## I. Đồng bộ và bất đồng bộ
 
 ### 1. Khái niệm
