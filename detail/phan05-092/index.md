@@ -167,6 +167,7 @@ newPromise.then(function (result) {
 ```
 
 - Trong thực tế, đôi khi Debug hoặc xử lý nào đó cần xử lý ngay trả về một Promise thành công thì có thể dùng cách dùng đơn giản hơn bằng `Promise.resolve`
+- Cũng như 1 số xử lý thông qua NodeJS hoặc fetch dữ liệu, axios ... thì xử lý luôn trả về là 1 Promise. Nên để Fake API kết quả trả về thì dùng Promise.resolve để nhận được kết quả cho nhanh.
 
 ```js
 var newPromise = Promise.resolve('Success!');
@@ -295,7 +296,7 @@ Promise.all([pr1, pr2]).then(res => {
 ![Promise.all](./images/006.png 'Promise.all')
 
 - Với xử lý Promise.all sẽ mất thời gian là 5000ms.
-- Nếu tồn tại một Promise trong mảng bị từ chối, thì xử lý Promise.all sẽ bị từ chối.
+- Nếu tồn tại một Promise trong mảng bị từ chối, thì xử lý Promise.all sẽ bị từ chối, và xử lý ở bắt lỗi `catch()`
 
 ```js
 var pr1 = new Promise((resolve, reject) => {

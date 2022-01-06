@@ -393,5 +393,6 @@ console.log(JSON.stringify(cat));
 ![DevTool](./images/008.png 'DevTool')
 
 ![DevTool](./images/009.png 'DevTool')
+![DevTool](./images/010.png 'DevTool')
 
 ---

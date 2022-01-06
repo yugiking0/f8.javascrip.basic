@@ -493,9 +493,34 @@ Xem [Kiểm tra](./demo-index.html)
 
 - Xem mục [Promise example](./detail/phan05-093/index.md)
 
+
+### Bài 093+: Nổi đau của Promise - Promise Pain
+
+- Xem mục [Promise Pain](./detail/phan05-093/index.md)
+
 ### Bài 094: Fetch dữ liệu
 
 - Xem mục [Fetch dữ liệu](./detail/phan05-094/index.md)
 
 <!-- ![Console](./images/001.png "Console") -->
 <!-- <img src="./images/001.png" alt="JAVASCRIPT VỚI HTML" width="400px"/> -->
+
+### Bài 097.1: Promise Pain
+
+- Xem mục [Asyn/Await](./detail/phan05-098/index.md)
+- Xem mục [Promise và Asyn/Await](./detail/phan05-098/index2.md)
+### Bài 097.2: Xử lý Asyn/Await
+
+- Xem mục [Asyn/Await](./detail/phan05-099/index.md)
+
+### Bài 097.3: Xử lý Axios
+
+- Xem mục [Xử lý Axios](./detail/phan05-100/index.md)
+
+
+---
+
+## Phần 06 : ECMAScript 6+
+
+### Bài 098: ECMAScript 6+ là gì?
+- Xem mục [ECMAScript 6+](./detail/phan06-098/index.md)
