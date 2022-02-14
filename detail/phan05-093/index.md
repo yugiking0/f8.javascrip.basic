@@ -441,3 +441,121 @@ getComments()
 - DOM
 
 ---
+
+
+```js
+var btn = document.querySelector("button");
+// var btn = document.querySelector("#btnLoad");
+var commentsBox = document.querySelector("#comments-box");
+
+btn.onclick = function () {
+  showChat();
+};
+
+// 01. DataBase
+var users = [
+  {
+    id: 1,
+    name: "Sơn Đặng",
+  },
+  {
+    id: 2,
+    name: "Kiên Nguyễn",
+  },
+  {
+    id: 3,
+    name: "Hưng Đàm",
+  },
+];
+
+var comments = [
+  {
+    id: 1,
+    content: "Anh Sơn chưa ra Video à :(",
+    user: 1,
+  },
+  {
+    id: 2,
+    content: "Vừa ra xong em ơi!",
+    user: 2,
+  },
+  {
+    id: 3,
+    content: "Cảm ơn anh ^^",
+    user: 1,
+  },
+];
+
+function showChat() {
+  // console.log("Hello:" + Math.random());
+  loadComments()
+    .then(function (coments) {
+      // console.log(data);
+      var userIds = coments.map(function (comment) {
+        return comment.user;
+      });
+      return getUserbyIDs(userIds)
+        .then(function (users) {
+          return {
+            users: users,
+            comments: comments,
+          };
+        })
+        .catch((err) => console.error(err + ""));
+    })
+    .then(function (data) {
+      // Load chatBlock
+      renderBlock(data);
+    })
+    .catch((err) => console.error(err + ""));
+}
+
+// 02. Load comments
+function loadComments() {
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve(comments);
+    }, 1000);
+  });
+}
+
+// 03. Load Users in list UserIds of comments
+function getUserbyIDs(userIds) {
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      //  Check userID không có ở users
+      var checkId = userIds.every((id) => {
+        var err = users.find((user) => user.id === id);
+        if (!err) reject(new Error("Lỗi tại ID: " + id));
+        return 1;
+      });
+
+      //  Lấy danh sách thông tin Users
+      var result = users.filter(function (user) {
+        return userIds.find(function (userId) {
+          return userId === user.id;
+        });
+      });
+      resolve(result);
+    }, 1000);
+  });
+}
+
+// getUserbyIDs([1,2,3])
+//   .then((data) => console.log(data))
+//   .catch((err) => console.error(err+''));
+
+// Show chatBlocks
+function renderBlock(data) {
+  var htmls = "";
+
+  data.comments.forEach(function (comment) {
+    var userInfo = data.users.find(function (user) {
+      return user.id == comment.user;
+    });
+    htmls += `<li> ${userInfo.name} : ${comment.content}</li> \n`;
+  });
+
+  commentsBox.innerHTML = htmls;
+}
+```

@@ -429,11 +429,13 @@ api
   .getUser('pikalong')
   .then(user => Promise.all([user, api.getPostsByUser(user)]))
   .then(results => {
-    // Dùng kỹ thuật phân rã biến trong ES6. Bạn lưu ý chúng ta dùng 1 dấu , để
+    // Dùng kỹ thuật phân rã biến trong ES6. 
+    // Bạn lưu ý chúng ta dùng 1 dấu , để
     // tách ra phần tử thứ hai của mảng mà thôi
     const [, posts] = results;
 
-    // Lại tiếp tục truyền dữ liệu bao gồm [user, posts, comments] xuống promise sau
+    // Lại tiếp tục truyền dữ liệu bao gồm [user, posts, comments] 
+    // xuống promise sau
     return Promise.all([...results, api.getCommentsOfPosts(posts)]);
   });
 ```

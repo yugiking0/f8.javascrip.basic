@@ -443,3 +443,7 @@ Xem [Kiểm tra](./demo-index.html)
 ## 8. Fetch dữ liệu
 
 - Xem mục [Fetch dữ liệu](./detail/phan05-094/index.md)
+
+## 9. JSON Server
+
+- Xem mục [JSON Server](./detail/phan05-096/index.md)

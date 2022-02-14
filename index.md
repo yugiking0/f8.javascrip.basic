@@ -493,7 +493,6 @@ Xem [Kiểm tra](./demo-index.html)
 
 - Xem mục [Promise example](./detail/phan05-093/index.md)
 
-
 ### Bài 093+: Nổi đau của Promise - Promise Pain
 
 - Xem mục [Promise Pain](./detail/phan05-093/index.md)
@@ -509,6 +508,7 @@ Xem [Kiểm tra](./demo-index.html)
 
 - Xem mục [Asyn/Await](./detail/phan05-098/index.md)
 - Xem mục [Promise và Asyn/Await](./detail/phan05-098/index2.md)
+
 ### Bài 097.2: Xử lý Asyn/Await
 
 - Xem mục [Asyn/Await](./detail/phan05-099/index.md)
@@ -517,10 +517,34 @@ Xem [Kiểm tra](./demo-index.html)
 
 - Xem mục [Xử lý Axios](./detail/phan05-100/index.md)
 
+### Bài 093: Promise example - Ví dụ sử dụng Promise
+
+- Xem mục [Promise example](./detail/phan05-093/index.md)
+
+### Bài 094: Fetch dữ liệu
+
+- Xem mục [Fetch dữ liệu](./detail/phan05-094/index.md)
+
+### Bài 095: JSON Server
+
+- Xem mục [JSON Server](./detail/phan05-095/index.md)
+
+### Bài 096: Sử dụng Postman làm việc với REST API
+
+- Xem mục [Sử dụng Postman](./detail/phan05-096/index.md)
+
+### Bài 097: Thêm/sửa/xóa khóa học với Fetch và REST API
+
+- Xem mục [Thêm/sửa/xóa khóa học với Fetch và REST API](./detail/phan05-097/index.md)
 
 ---
 
 ## Phần 06 : ECMAScript 6+
 
-### Bài 098: ECMAScript 6+ là gì?
-- Xem mục [ECMAScript 6+](./detail/phan06-098/index.md)
+### Bài 099: ECMAScript 6+ là gì?
+
+- Xem mục [ECMAScript 6+](./detail/phan06-099/index.md)
+
+### Bài 100: Let & Const
+
+- Xem mục [Let & Const](./detail/phan06-100/index.md)
