@@ -1,52 +1,46 @@
-
-
 ![Object](./images/code-object.png 'Object')
 
 ![Function Constructor](./images/code-constructor.png 'Function Constructor')
 
 ![Class](./images/code-class.png 'Class')
 
-
-
-
 ```js
 // Object
 const cssCourse = {
-  name: "CSS",
+  name: 'CSS',
   price: 150,
-  
+
   getName: function () {
     return this.name;
   },
-  setName : function (newName) {
+  setName: function (newName) {
     this.name = newName;
-  }
+  },
 };
 
-console.log("O.Course Name: ", cssCourse.getName());
+console.log('O.Course Name: ', cssCourse.getName());
 // Course Name:  CSS
-cssCourse.setName("Python"); 
-console.log("O.Course Name: ", cssCourse.getName());
+cssCourse.setName('Python');
+console.log('O.Course Name: ', cssCourse.getName());
 // Course Name:  Python
 
-
 // Function Constructor
-function fcCourse (name,price){
+function fcCourse(name, price) {
   this.name = name;
   this.price = price;
 
   this.getName = function () {
     return this.name;
-  }
-  this.setName = function (newName){
+  };
+  this.setName = function (newName) {
     this.name = newName;
-  }
+  };
 }
-var jsCourse = new fcCourse ("JavaScript", 1000);
-console.log('FC Course Name: ',jsCourse.getName());
+var jsCourse = new fcCourse('JavaScript', 1000);
+console.log('FC Course Name: ', jsCourse.getName());
 // Course Name:  JavaScript
-jsCourse.setName('PHP')
-console.log('FC Course Name: ',jsCourse.getName());
+jsCourse.setName('PHP');
+console.log('FC Course Name: ', jsCourse.getName());
 // Course Name:  PHP
 
 // Class
@@ -56,29 +50,28 @@ class ClassCourse {
     this.price = price;
   }
 
-  getName(){
+  getName() {
     return this.name;
   }
-  setName(newName){
+  setName(newName) {
     this.name = newName;
   }
-  getPrice(){
+  getPrice() {
     return this.price;
   }
 
-  run(){
+  run() {
     let isSucceeded = false;
-    if(true){
+    if (true) {
       isSucceeded = true;
     }
   }
 }
 
-var jsCourse = new ClassCourse ("JavaScript", 1000);
-console.log('Course Name: ',jsCourse.getName());
+var jsCourse = new ClassCourse('JavaScript', 1000);
+console.log('Course Name: ', jsCourse.getName());
 // Course Name:  CSS
-jsCourse.setName('Python')
-console.log('Course Name: ',jsCourse.getName());
+jsCourse.setName('Python');
+console.log('Course Name: ', jsCourse.getName());
 // Course Name:  Python
-
 ```

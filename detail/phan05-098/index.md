@@ -101,6 +101,7 @@ function loadUsers(users, userIds) {
   return result;
 }
 ```
+
 - Ta thấy việc kế thừa lại biến data để xử lý ở bước sau theo chuỗi Promise Chain sẽ khó khăn khi khác block phải đẩy qua Array.
 - Nếu có sự xen kẻ liên tục kế thừa dữ liệu ở các khối block và lúc thì xử lý đồng bộ lúc thì xử lý bất đồng bộ thì sẽ thực hiện thế nào?
 

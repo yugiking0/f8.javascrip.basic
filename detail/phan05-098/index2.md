@@ -137,7 +137,7 @@ async function hello() {
   return 1;
 }
 
-console.log(hello() instanceof Promise); // true
+console.log(hello() instanceOf Promise); // true
 hello().then(console.log); // 1
 ```
 

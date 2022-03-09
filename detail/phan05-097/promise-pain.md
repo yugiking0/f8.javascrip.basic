@@ -123,4 +123,4 @@ Ví dụ:
     - Promise hell
     - Việc khó khăn có thể tái sử dụng dữ liệu bước trước và luôn phải trả về promise để dùng cho bước sau.
 
--> Nên cần có một công cụ nào đó khắc phục và tạm thời là chức năng `Asyn / Await`
+-> Nên cần có một công cụ nào đó khắc phục và tạm thời là chức năng `Async / Await`

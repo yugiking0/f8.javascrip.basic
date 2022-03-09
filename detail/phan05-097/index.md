@@ -34,7 +34,7 @@ Xóa npm init - Xóa thư mục node_modules
 ## 3. Thực Hiện
 
 - Chạy dịch vụ Fake Api JSON Server
-    `npm start`
+  `npm start`
   `http://localhost:3000/courses`
 - Chạy live Server
   `live-server --port=5500`

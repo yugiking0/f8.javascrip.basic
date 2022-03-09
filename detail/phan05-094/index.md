@@ -39,6 +39,7 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 }
 ```
 - Với fetch đã hỗ trợ công cụ .json() để chuyển dữ liệu qua kiểu JavaScript mà không cần sử dụng các JSON Parse như đã học ở bài trước.
+
 ```js
 fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(response => response.json())
@@ -66,6 +67,7 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 <script src="app.js"></script>
 </html>
 ```
+
 ```js
 var url = "https://jsonplaceholder.typicode.com/posts";
 
@@ -84,9 +86,8 @@ fetch(url)
   .catch(() => {
     console.error(new Error("Có lỗi!"));
   });
-
-
 ```
+
 ![URL API](./images/003.png 'posts')
 
 ![URL API](./images/004.png 'posts')

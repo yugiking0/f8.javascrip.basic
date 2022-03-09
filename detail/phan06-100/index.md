@@ -85,6 +85,7 @@ console.log(a);
 //html
 ```
 - Lưu ý trường hợp đặc biệt của khai báo lại
+
 ```js
 {
     var a = "Javascript";
@@ -120,11 +121,13 @@ console.log(a);
 }
 //html
 ```
+
 - Như vậy, khai báo biến và giá trị sẽ ưu tiên ở trong khối code cùng cấp sau đó là khối code cấp gần nhất chứa nó.
 
 ### 1.2 Hosting : Đưa lên trên đầu
 - Đưa lên trên đầu : Viết lại code định nghĩa lên đầu đối với 1 số trường hợp cho phép Hosting
 - Ví dụ với Var 
+
 ```js
 a = "Javascript";
 console.log(a);
@@ -133,6 +136,7 @@ var a;
 //Javascript
 ```
 - Nếu dùng Let và Const
+
 ```js
 a = "Javascript";
 console.log(a);
@@ -145,6 +149,7 @@ const a;
 //Uncaught SyntaxError: Missing initializer in const declaration
 ```
 - Sẽ bị báo lỗi, nguyên nhân là var có hỗ trợ Hosting và trình duyệt sẽ viết lại khai báo đưa lên đầu.
+
 ```js
 //Code 
 var a =  1;
@@ -153,6 +158,7 @@ var a =  1;
 var a;
 a = 1;
 ```
+
 - ở ví dụ trên Hosting khai báo ở dưới được đưa lên trên.
 
 ```js
@@ -167,6 +173,7 @@ a = "Javascript";
 console.log(a);
 //Javascript
 ```
+
 ![Hosting](./images/003.png 'Hosting')
 - Như vậy với khai báo `var` hỗ trợ **Hosting**, còn khai báo `let` và `const` không hỗ trợ **Hosting**
 Xem thêm:
@@ -175,14 +182,13 @@ Xem thêm:
 - https://anonystick.com/blog-developer/hoisting-javascript-la-gi-hoisting-tot-hay-xau-chi-can-1-phut-de-hieu-2020051681168206
 
 ## 2. Const / Let, Var
-
-
 - **Assignment** : Gán giá trị, với khai báo `Const`(_CONSTANT_) - `Hằng số` thì không gán lại được giá trị cho biến thuộc loại - Kiểu tham trị. Xem thêm ở
 
 
 ### 2.1 Assignment Primitive Types
 - Gán lại giá trị cho biến tham trị.
 - Xét ví dụ sau: 
+
 ```js
 let a = 'PHP';
 console.log("Biến a:", a); // Biến a: PHP
@@ -191,7 +197,9 @@ console.log("Biến a:", a); // Biến a: PHP
 a = 'Javascript'
 console.log("Biến a:", a); // Biến a: Javascript
 ```
+
 - Với const sẽ bị báo lỗi
+
 ```js
 const a = 'PHP';
 console.log("Biến a:", a); // Biến a: PHP
@@ -200,12 +208,14 @@ console.log("Biến a:", a); // Biến a: PHP
 a = 'Javascript'
 //Uncaught TypeError: Assignment to constant variable.
 ```
+
 - Như vậy với kiểu `Primitive Types` sẽ không gán lại giá trị được khi sử dụng khai báo `const`
 
 
 ### 2.2 Assignment Reference Types Types
 - Gán lại giá trị cho biến tham chiếu.
 - Xét ví dụ khi gán lại giá trị cho cả đối tượng kiểu tham chiếu, sẽ xuất hiện lỗi gán giá trị như kiểu biến tham trị. 
+
 ```js
 const cat = {
     name: "Tom",
@@ -221,7 +231,9 @@ cat = {
 };
 // Assignment to constant variable.
 ```
+
 - Nếu gán lại giá trị cho thành phần của đối tượng thì vẫn cho phép.
+
 ```js
 const cat = {
     name: "Tom",
@@ -235,7 +247,9 @@ cat.age = 3;
 console.log("Mèo Tom:", cat); 
 // Mèo Tom: {name: 'Tom', age: 3}
 ```
+
 - Hay như mảng Array, cho phép thay đổi giá trị index như sau:
+
 ```js
 const cars = ['Mazda','Toyota','Hyundai'];
 console.log('Item index 0: ',cars[0]);
@@ -246,6 +260,7 @@ cars[0] = 'Ford'
 console.log('Item index 0: ',cars[0]);
 // Item index 0:  Ford
 ```
+
 ## 3. Tổng kết
 
 ![Const](./images/004.png 'Const')

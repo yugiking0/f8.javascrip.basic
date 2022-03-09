@@ -10,6 +10,7 @@
 ## 2. Cách sử dụng
 ### 2.1 Template literals
 - Xét ví dụ nối câu như sau:
+
 ```js
 const carName = "Accent";
 const brandName = "Hyundai";
@@ -20,7 +21,9 @@ var description = carName
   + " has price is " + price;
 console.log(description);
 ```
+
 - Sử dụng Template literals nội suy sẽ dùng dấu như sau:
+
 ```js
 const carName = "Accent";
 const brandName = "Hyundai";
@@ -30,9 +33,10 @@ description = `${carName} of ${brandName}`
   + ` has price is ${price}`;
 console.log(description);
 ```
+### 2.2 Multi-line String
 
-Multi-line String
 - Để viết nhiều dòng có thể dùng ký tự `\n` để xuống dòng như sau:
+
 ```js
 const lines = 'Line 1\n'
   + 'Line 2\n'
@@ -43,7 +47,9 @@ console.log(lines);
 // Line 2
 // Line 3
 ```
+
 - Hoặc dùng Template literals với nội suy, sẽ giữa được cấu trúc.
+
 ```js
 const lines = `Line 1
 Line 2
