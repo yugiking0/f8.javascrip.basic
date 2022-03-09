@@ -31,16 +31,15 @@
 - Ngoài ra có thêm những chức năng khác:
   ![postman](./images/002.png 'postman')
 
-
 - Xem thên thông tin tại [postman](https://www.postman.com/downloads)
 
-Xóa module npm 
+Xóa module npm
 `npm uninstall json-server`
 
 Xóa npm init - Xóa thư mục node_modules
- `rm node_modules`
+`rm node_modules`
 
-  ![Remove node_modules](./images/005.png 'Remove node_modules')
+![Remove node_modules](./images/005.png 'Remove node_modules')
 
 **Lưu ý:**
 

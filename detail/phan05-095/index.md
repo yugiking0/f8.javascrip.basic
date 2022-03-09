@@ -1,17 +1,18 @@
 # JSON SERVER
-----------------------------------------------------------------
 
+---
 
-  - [1. Chức năng](#1-chức-năng)
-  - [2. Cài đặt](#2-cài-đặt)
-  - [3. Sử dụng](#3-sử-dụng)
-
+- [1. Chức năng](#1-chức-năng)
+- [2. Cài đặt](#2-cài-đặt)
+- [3. Sử dụng](#3-sử-dụng)
 
 ---
 
 ## 1. Chức năng
+
 - Dựng nên một Fake API , Mock API để test chức năng khi Back-end chưa dựng xong API để Demo.
 - Chạy dịch vụ tạo Fake API theo chuẩn REST có thể áp dụng các giao thức xử lý CRUD (Create - Read - Update - Delete).
+
 ## 2. Cài đặt
 
 - Để cài được JSON Server thì cần cài đặt trước:

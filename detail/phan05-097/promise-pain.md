@@ -101,26 +101,28 @@ function loadUsers(users, userIds) {
   return result;
 }
 ```
+
 - Ta thấy việc kế thừa lại biến data để xử lý ở bước sau theo chuỗi Promise Chain sẽ khó khăn khi khác block phải đẩy qua Array.
 - Nếu có sự xen kẻ liên tục kế thừa dữ liệu ở các khối block và lúc thì xử lý đồng bộ lúc thì xử lý bất đồng bộ thì sẽ thực hiện thế nào?
 
-Ví dụ: 
-- Load dữ liệu của hóa đơn bán hàng sẽ liên quan đến các bảng ở backend 
-    - Bảng Issue
-    - Thông tin khách hàng
-    - Bảng thông tin hàng hóa
-    - Bảng thông tin tồn kho của hàng hóa đó.
-    - Bảng công nợ của khách hàng
-    - Bảng doanh thu - chi phí
-    - Nhân viên bán hàng
-    - ...
+Ví dụ:
+
+- Load dữ liệu của hóa đơn bán hàng sẽ liên quan đến các bảng ở backend
+  - Bảng Issue
+  - Thông tin khách hàng
+  - Bảng thông tin hàng hóa
+  - Bảng thông tin tồn kho của hàng hóa đó.
+  - Bảng công nợ của khách hàng
+  - Bảng doanh thu - chi phí
+  - Nhân viên bán hàng
+  - ...
 - Khi này cần xử lý:
-    - Bước 1: Load backend phiếu Issue hóa đơn bán hàng
-    - Bước 2: Lấy các danh sách id của: Mã khách, Mã nhân viên, Mã doanh thu - chi phí, Mã hàng,...
-    - Bước 3: Xử lý load backend bất đồng bộ những thông tin cần lấy chỉ theo các danh sách bước 3.
-    - Bước 4: Kết hợp kiểm tra tồn kho có đáp ứng số lượng xuất, kiểm tra công nợ, kiểm tra chi phí, sau khi có được số lượng tồn kho ở các kho, có công nợ khách hàng cho phép hoặc nợ quá lâu, kiểm tra có vượt chi phí cho phép,...
+  - Bước 1: Load backend phiếu Issue hóa đơn bán hàng
+  - Bước 2: Lấy các danh sách id của: Mã khách, Mã nhân viên, Mã doanh thu - chi phí, Mã hàng,...
+  - Bước 3: Xử lý load backend bất đồng bộ những thông tin cần lấy chỉ theo các danh sách bước 3.
+  - Bước 4: Kết hợp kiểm tra tồn kho có đáp ứng số lượng xuất, kiểm tra công nợ, kiểm tra chi phí, sau khi có được số lượng tồn kho ở các kho, có công nợ khách hàng cho phép hoặc nợ quá lâu, kiểm tra có vượt chi phí cho phép,...
 - Bài toán sẽ rất phức tạp nếu chỉ dùng Promise Chain ở các khối block cần return một promise để có thể vừa Đồng bộ theo luồng có kế thừa dữ liệu, vừa đôi khi load kiểm tra bất đồng bộ từng mục. Việc này sẽ dẫn đến nối đau:
-    - Promise hell
-    - Việc khó khăn có thể tái sử dụng dữ liệu bước trước và luôn phải trả về promise để dùng cho bước sau.
+  - Promise hell
+  - Việc khó khăn có thể tái sử dụng dữ liệu bước trước và luôn phải trả về promise để dùng cho bước sau.
 
 -> Nên cần có một công cụ nào đó khắc phục và tạm thời là chức năng `Async / Await`

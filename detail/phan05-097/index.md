@@ -7,13 +7,13 @@
 - Dùng JSON Server để dựng Mock API/ Fake API
 - Thông qua Fetch để xử lý dữ liệu thông qua API như CRUD
 
-Xóa module npm 
+Xóa module npm
 `npm uninstall json-server`
 
 Xóa npm init - Xóa thư mục node_modules
- `rm node_modules`
-  ![Remove node_modules](./images/003.png 'Remove node_modules')
-  
+`rm node_modules`
+![Remove node_modules](./images/003.png 'Remove node_modules')
+
 **Lưu ý:**
 
 - Tách thư mục API Json Server riêng ra
