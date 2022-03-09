@@ -1,6 +1,6 @@
 # OBJECT PROTOTYPE - THUỘC TÍNH NGUYÊN MẪU.
 
-Trong một Object Constructor sẽ được cấu thành nên bởi các thuộc tính ở bên trong, và các thuộc tính này được gọi là `Object Prototype` - _Thuộc tính nguyên mẫu_.
+Trong một `Object Constructor` sẽ được cấu thành nên bởi các thuộc tính ở bên trong, và các thuộc tính này được gọi là `Object Prototype` - _Thuộc tính nguyên mẫu_.
 
 ```js
 // Object Constructor

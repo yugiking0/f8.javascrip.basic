@@ -548,3 +548,19 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 100: Let & Const
 
 - Xem mục [Let & Const](./detail/phan06-100/index.md)
+
+
+### Bài 101: Template literals
+
+- Xem mục [Template literals](./detail/phan06-101/index.md)
+
+
+### Bài 102: Arrow function
+
+- Xem mục [Arrow function](./detail/phan06-102/index.md)
+
+
+### Bài 103: Classes
+
+- Xem mục [Classes](./detail/phan06-103/index.md)
+
