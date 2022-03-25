@@ -125,4 +125,4 @@ Ví dụ:
     - Việc khó khăn có thể tái sử dụng dữ liệu bước trước và luôn phải trả về promise để dùng cho bước sau.
 > Một trong những điểm hạn chế của Promise là không có cơ chế mặc định để bạn truyền dữ liệu giữa các promise objects với nhau
 
--> Nên cần có một công cụ nào đó khắc phục, bổ trợ cùng Promise nên tạm thời đó là chức năng `Asyn / Await`
+-> Nên cần có một công cụ nào đó khắc phục, bổ trợ cùng Promise nên tạm thời đó là chức năng `Async / Await`

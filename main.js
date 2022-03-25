@@ -1,6 +1,6 @@
-var btn = document.querySelector('button')
-
-btn.onclick = () =>{
-//  console.log("Hi You! : " + Math.random());
+function logger(...rest) {
+  console.log(arguments);
+  console.log(rest);
 }
 
+logger('Message','Xin Chao', 'Hello')

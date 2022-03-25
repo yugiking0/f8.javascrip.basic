@@ -564,3 +564,14 @@ Xem [Kiểm tra](./demo-index.html)
 
 - Xem mục [Classes](./detail/phan06-103/index.md)
 
+### Bài 104: Default parameter values
+
+- Xem mục [Default parameter values](./detail/phan06-104/index.md)
+
+### Bài 105: Enhanced object literals
+
+- Xem mục [Enhanced object literals](./detail/phan06-105/index.md)
+
+### Bài 106: Destructuring, Rest
+
+- Xem mục [Destructuring, Rest](./detail/phan06-106/index.md)

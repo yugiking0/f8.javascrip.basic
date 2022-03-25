@@ -4,7 +4,7 @@
 
 ## 1. Lý thuyết
 
-- Ở ES6 đã bổ sung thêm Classes để hướng ngôn ngữ javascript có thể viết được lập trình OOP dễ dàng hơn.
+- Ở **`ES6`** đã bổ sung thêm Classes để hướng ngôn ngữ javascript có thể viết được lập trình OOP dễ dàng hơn.
 - Có thể xem class gần giống như Function constructor và được mở rộng hơn.
 
 ## 2. Vài ví dụ liên quan Function Constructor
@@ -117,7 +117,7 @@ console.log('Course Name: ', jsCourse.getName());
 - Áp dụng sử dụng ở Nodejs
 - Tối ưu xử lý phát triển chương trình
 
-Xem mục [Classes](./object-class.md)
+Xem mục [Object vs Classes](./object-class.md)
 
 Xem mục [Classes](./classes.md)
 
