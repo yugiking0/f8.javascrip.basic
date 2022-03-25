@@ -1,6 +1,10 @@
-function logger(...rest) {
-  console.log(arguments);
-  console.log(rest);
+function logger({ name, ...rest }) {
+  console.log('Name: ', name);  // Name:  Javascript
+  console.log('rest: ', rest); // rest:  {description: 'Description', price: 1000}
 }
 
-logger('Message','Xin Chao', 'Hello')
+logger({
+  name: 'Javascript',
+  description: 'Description',
+  price: 1000,
+});

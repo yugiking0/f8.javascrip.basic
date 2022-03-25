@@ -325,5 +325,32 @@ logger('Message','Xin Chao', 'Hello')
 
 ![Rest](./images/003.png 'Rest')
 
+- Ví dụ với Array
+
+```js
+function logger([a, b, ...rest]) {
+  console.log('a: ', a); // a:  1
+  console.log('b: ', b); // b:  2
+  console.log('rest: ', rest); // rest:  (6) [3, 4, 5, 6, 7, 8]
+}
+
+logger([1, 2, 3, 4, 5, 6, 7, 8]);
+```
+
+- Ví dụ với Object
+
+```js
+function logger({ name, ...rest }) {
+  console.log('Name: ', name);  // Name:  Javascript
+  console.log('rest: ', rest); // rest:  {description: 'Description', price: 1000}
+}
+
+logger({
+  name: 'Javascript',
+  description: 'Description',
+  price: 1000,
+});
+```
+
 - So sánh [Rest vs Arguments](./rest_arguments.md)
 ---

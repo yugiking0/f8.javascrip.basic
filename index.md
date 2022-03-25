@@ -575,3 +575,7 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 106: Destructuring, Rest
 
 - Xem mục [Destructuring, Rest](./detail/phan06-106/index.md)
+
+### Bài 107: Spread
+
+- Xem mục [Spread](./detail/phan06-107/index.md)
