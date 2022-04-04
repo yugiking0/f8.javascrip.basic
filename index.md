@@ -579,3 +579,7 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 107: Spread
 
 - Xem mục [Spread](./detail/phan06-107/index.md)
+
+### Bài 108: Tagged template literals
+
+- Xem mục [Tagged template literals](./detail/phan06-108/index.md)
