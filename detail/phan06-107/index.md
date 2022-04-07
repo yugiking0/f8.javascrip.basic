@@ -3,8 +3,8 @@
 ---
 
 - `Destructuring` phá cấu trúc để gán vào biến.
-- `Spread` nghĩa là giải, rả, phân rả, phân giải ra.
 - `Rest` phần còn lại của tham số truyền vào.
+- `Spread` nghĩa là giải, rả, phân rả, phân giải ra.
 
 ---
 
@@ -32,6 +32,10 @@ const array2 = [4, 5, 6];
 const array3 = [...array1, ...array2];
 console.log(array3);
 // [1, 2, 3, 4, 5, 6]
+
+// -- Hoặc viết ngược lại array2 trước rồi đến array1 ---
+console.log([...array2, ...array1]);
+// [4, 5, 6, 1, 2, 3]
 ```
 
 ### 1.2 Spread Object
@@ -52,7 +56,9 @@ console.log(object3);
 // {name: 'Duy', age: '134'}
 ```
 
-- Áp dụng để xử lý render trang khi lấy dữ liệu: 
+## 2. Áp dụng Spread
+
+- Áp dụng để xử lý render trang khi lấy dữ liệu:
 
 ```js
 const defaultConfig = {
@@ -73,6 +79,38 @@ const renderConfig = {
 };
 console.log(renderConfig);
 ```
+
 ![Spread Object](./images/001.png 'Spread Object')
 
-### 1.3 Spread Function
+- Ta áp dụng tính chất của Object khi được tạo trùng key, thì sẽ nhận key được tạo sau
+
+```js
+const course = {
+  name: 'Javascript',
+  price: 100,
+  api: 'http://localhost:2000/news',
+  name: 'NodeJS',
+  api: 'http://localhost:3000/weather',
+};
+console.log(course);
+// {name: 'NodeJS', price: 100, api: 'http://localhost:3000/weather'}
+```
+
+## 3.Spread kết hợp Rest
+
+- Ta xét ví dụ sau:
+
+```js
+const courses = ['Javascript', 'NodeJS', 'React'];
+
+function logger(...rest) {
+  for(var i=0; i<rest.length; i++){
+    console.log(rest[i]);
+  }
+}
+
+logger(...courses);
+// ['Javascript', 'NodeJS', 'React']
+```
+
+---
