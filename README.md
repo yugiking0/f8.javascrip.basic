@@ -405,6 +405,76 @@ Xem [Kiểm tra](./demo-index.html)
 
 - Xem [Get element method - Phần 3](./detail/phan04-075/index.md)
 
+
+
+
+### Bài 094: Fetch dữ liệu
+
+- Xem mục [Fetch dữ liệu](./detail/phan05-094/index.md)
+
+### Bài 095: JSON Server
+
+- Xem mục [JSON Server](./detail/phan05-095/index.md)
+
+### Bài 096: Sử dụng Postman làm việc với REST API
+
+- Xem mục [Sử dụng Postman](./detail/phan05-096/index.md)
+
+### Bài 097: Thêm/sửa/xóa khóa học với Fetch và REST API
+
+- Xem mục [Thêm/sửa/xóa khóa học với Fetch và REST API](./detail/phan05-097/index.md)
+
+---
+
+## Phần 06 : ECMAScript 6+
+
+### Bài 099: ECMAScript 6+ là gì?
+
+- Xem mục [ECMAScript 6+](./detail/phan06-099/index.md)
+
+### Bài 100: Let & Const
+
+- Xem mục [Let & Const](./detail/phan06-100/index.md)
+
+
+### Bài 101: Template literals
+
+- Xem mục [Template literals](./detail/phan06-101/index.md)
+
+
+### Bài 102: Arrow function
+
+- Xem mục [Arrow function](./detail/phan06-102/index.md)
+
+
+### Bài 103: Classes
+
+- Xem mục [Classes](./detail/phan06-103/index.md)
+
+### Bài 104: Default parameter values
+
+- Xem mục [Default parameter values](./detail/phan06-104/index.md)
+
+### Bài 105: Enhanced object literals
+
+- Xem mục [Enhanced object literals](./detail/phan06-105/index.md)
+
+### Bài 106: Destructuring, Rest
+
+- Xem mục [Destructuring, Rest](./detail/phan06-106/index.md)
+
+### Bài 107: Spread
+
+- Xem mục [Spread](./detail/phan06-107/index.md)
+
+### Bài 108: Tagged template literals
+
+- Xem mục [Tagged template literals](./detail/phan06-108/index.md)
+
+### Bài 109: Modules
+
+- Xem mục [Modules](./detail/phan06-109/index.md)
+
 ---
 
 ## 1. JSON là gì?
