@@ -116,8 +116,6 @@ logger('Bugzzz!', 'error');
 </html>
 ```
 
-![modules](./images/002.png 'modules')
-
 - Khi này sẽ không báo lỗi nữa, nhưng không log được thông tin.
 
 ### 2.4 Khai báo Export ở file logger.js
@@ -201,6 +199,8 @@ demo-modules
 └─ main.js
 ```
 
+![modules](./images/002.png 'modules')
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -220,6 +220,7 @@ demo-modules
 - main.js
 
 ```js
+// main.js
 import logger from './log/index.js';
 import {TYPE_LOG, TYPE_WARN, TYPE_ERROR} from './log/constant.js';
 
@@ -239,6 +240,7 @@ document.addEventListener('DOMContentLoaded', function () {
 - log/constant.js
 
 ```js
+// constant.js
 const TYPE_LOG = 'log';
 const TYPE_WARN = 'warn';
 const TYPE_ERROR = 'error';
@@ -249,6 +251,7 @@ export {TYPE_LOG, TYPE_WARN, TYPE_ERROR};
 - log/logger.js
 
 ```js
+// logger.js
 import {TYPE_LOG} from './constant.js';
 
 function logger(message, type = TYPE_LOG) {
@@ -261,5 +264,8 @@ export default logger;
 - log/index.js
 
 ```js
+// index.js
+
 export {default} from './logger.js';
+
 ```
