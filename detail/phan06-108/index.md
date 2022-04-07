@@ -76,8 +76,8 @@ highlight`Học lập trình ${course} tại ${name}!`;
 
 ## 2. Ứng dụng Highlight đoạn văn bản
 
-- Ý tưởng sẽ tạo thành 2 nhóm mảng: 
-  - Nhóm chứa đoạn văn bản thường 
+- Ý tưởng sẽ tạo thành 2 nhóm mảng:
+  - Nhóm chứa đoạn văn bản thường
   - Nhóm chứa các biến `Template Literals`
 - Sau đó nối lại xen kẽ, sau khi bổ sung highlight cho các biến `Template Literals`.
 
@@ -86,12 +86,14 @@ const name = 'F8';
 const course = 'Javascript';
 
 function highlight([first, ...values], ...rest) {
-  console.log('first::: ',first); // Học lập trình
-  console.log('values::: ',values); // [' tại ', '!']
-  console.log('rest::: ',rest); // ['Javascript', 'F8']
+  console.log('first::: ', first); // Học lập trình
+  console.log('values::: ', values); // [' tại ', '!']
+  console.log('rest::: ', rest); // ['Javascript', 'F8']
 }
 highlight`Học lập trình ${course} tại ${name}!`;
 ```
+
+![Tagged template literals](./images/005.png 'Tagged template literals')
 
 - Dùng `reduce` để tạo mới lại đoạn văn bản như sau:
 
@@ -103,13 +105,17 @@ function highlight([first, ...values], ...rest) {
   console.log(first); // Học lập trình
   console.log(values); // [' tại ', '!']
   console.log(rest); // ['Javascript', 'F8']
-  return rest.reduce((acc, cur) => {
+  return rest
+    .reduce((acc, cur) => {
         return [...acc, `<b>${cur}</b>`, values.shift()];
-      },[first]).join('');
+      },[first]
+    ).join('');
 }
 const html = highlight`Học lập trình ${course} tại ${name}!`;
 console.log(html);
 // Học lập trình <b>Javascript</b> tại <b>F8</b>!
 ```
 
-![Tagged template literals](./images/005.png 'Tagged template literals')
+![Tagged template literals](./images/006.png 'Tagged template literals')
+
+---
