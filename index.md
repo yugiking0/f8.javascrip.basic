@@ -583,3 +583,7 @@ Xem [Kiểm tra](./demo-index.html)
 ### Bài 108: Tagged template literals
 
 - Xem mục [Tagged template literals](./detail/phan06-108/index.md)
+
+### Bài 109: Modules
+
+- Xem mục [Modules](./detail/phan06-109/index.md)
