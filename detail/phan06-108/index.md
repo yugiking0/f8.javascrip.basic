@@ -114,6 +114,7 @@ function highlight([first, ...values], ...rest) {
 const html = highlight`Học lập trình ${course} tại ${name}!`;
 console.log(html);
 // Học lập trình <b>Javascript</b> tại <b>F8</b>!
+document.write(html);
 ```
 
 ![Tagged template literals](./images/006.png 'Tagged template literals')
